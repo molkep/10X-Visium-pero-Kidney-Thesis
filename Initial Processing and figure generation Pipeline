@@ -1,0 +1,397 @@
+library(dplyr)
+library(Seurat)
+library(patchwork)
+library(ggplot2)
+
+####################
+#####A1 Tissue######
+####################
+
+A1_Tissue <- Load10X_Spatial(data.dir = "C:/Users/molly_iwzteu2/Onedrive/Desktop/10X/A1/outs/",
+                             filename = "filtered_feature_bc_matrix.h5",
+                             assay = "A1",
+                             slice = "A1_Tissue",
+                             filter.matrix = TRUE,
+                             to.upper = FALSE,
+                             image = NULL)
+
+##Initial plots to determine if normalization is needed
+plotA1 <- VlnPlot(A1_Tissue, features = "nFeature_A1", pt.size = 0.1) + NoLegend()
+plotA1 <- plotA1+ xlab("A1 Tissue") + theme(axis.text.x=element_blank(),
+                                            axis.ticks.x=element_blank())
+plotA2 <-  SpatialFeaturePlot(A1_Tissue, features = "nFeature_A1") + theme(legend.position = "right")
+
+png(filename = paste(new_dir, "/A1pre_norm_features.png", sep=""), width = 1000)
+wrap_plots(plotA1, plotA2)
+dev.off() 
+
+A1_Tissue <- SCTransform(A1_Tissue, assay = "A1", verbose = FALSE)
+
+A1_Tissue <- NormalizeData(A1_Tissue, assay = "A1")
+A1_Tissue <- FindVariableFeatures(A1_Tissue, assay = "A1")
+A1_Tissue <- ScaleData(A1_Tissue, assay = "SCT")
+
+plotA3 <- VlnPlot(A1_Tissue, features = "nFeature_A1", pt.size = 0.1) + NoLegend()
+plotA3 <- plotA3 + xlab("A1_Tissue") + theme(axis.text.x=element_blank(),
+                                             axis.ticks.x=element_blank())
+
+plotA4 <- SpatialFeaturePlot(A1_Tissue, features = "nFeature_A1") + theme(legend.position = "right")
+plotA4.5 <- SpatialFeaturePlot(A1_Tissue, features = "nCount_A1") + theme(legend.position = "right")
+
+#Clustering
+A1_Tissue <- RunPCA(A1_Tissue, assay = "SCT", verbose = FALSE)
+A1_Tissue <- FindNeighbors(A1_Tissue, reduction = "pca", dims = 1:30)
+A1_Tissue <- FindClusters(A1_Tissue, graph.name = "SCT_snn", verbose = FALSE)
+A1_Tissue <- RunUMAP(A1_Tissue, reduction = "pca", dims = 1:30)
+
+#UMAP plot
+plotA5 <- DimPlot(A1_Tissue, reduction = "umap", label = TRUE)+ ggtitle("A1 Tissue Clusters") + theme(plot.title = element_text(hjust = 0.5)) +theme(legend.title = element_text(colour="black", size=10, 
+                                                                                                                                                                                 face="bold"))
+plotA6 <- SpatialDimPlot(A1_Tissue, label = TRUE, label.size = 2, )+ ggtitle("A1 Spatial Clustering") +theme(plot.title = element_text(hjust = 0.5))  + theme(legend.title = element_text(colour="black", size=10, 
+                                                                                                      face="bold")) + scale_fill_discrete(name = "Clusters") + theme(legend.key.size = unit(15, 'mm')) + guides( color = guide_legend(override.aes = list(size = 10))) 
+ 
+#Spatial UMAP plot with each cluster separated, choose cluster with idents
+plotA7 <- SpatialDimPlot(A1_Tissue, cells.highlight = CellsByIdentities(object = A1_Tissue, idents = c(3,5,2,1,0,6,4)),
+                         facet.highlight = TRUE, 
+                         cols.highlight = c("#00A9FF", "grey50"),
+                         ncol = 3)
+
+png(filename = paste(new_dir, "/A1separated_clusters.png", sep=""), width = 1000)
+plotA7
+dev.off()
+
+#identification of features that correlate with special location, first method, (not preferred)
+#ident.1/2 are used to specify clusters
+A1_de_markers <- FindMarkers(A1_Tissue, ident.1 = 3, ident.2 = 2, min.pct = 0.25)
+plotA8 <- SpatialFeaturePlot(object = A1_Tissue, features = rownames(A1_de_markers)[1:5], alpha = c(0.1, 1), ncol = 5)
+
+png(filename = paste(new_dir, "/A1de_markers.png", sep=""), width = 1000)
+plotA8
+dev.off()
+
+
+#Second method - First step takes a very long time(Run overnight for 1000 features)
+A1_Tissue <- FindSpatiallyVariableFeatures(A1_Tissue, assay = "SCT", features = VariableFeatures(A1_Tissue)[1:1000],
+                                           selection.method = "markvariogram")
+
+#Get info on what top HVG ares
+A1_top_features <- head(SpatiallyVariableFeatures(A1_Tissue, selection.method = "markvariogram"), 100)
+plotA9 <- SpatialFeaturePlot(A1_Tissue, features = A1_top_features, ncol = 5)
+
+png(filename = paste(new_dir, "/A1top_variable_features.png", sep=""), width = 1000)
+plotA9
+dev.off()
+
+#Marker features based on canonical identification genes found in literature
+A1_marker.features <- c(#gene of interest here)
+plotA10<- SpatialFeaturePlot(A1_Tissue, features = A1_marker.features, ncol = 3, alpha = c(0.1, 1))
+plotA10
+
+#Violin plot shows expression level os features of interest in each cluster
+plotA11 <- VlnPlot(A1_Tissue, features = A1_top_features) + theme(strip.text.x = element_blank())
+plotA12 <- VlnPlot(A1_Tissue, features = A1_marker.features) + theme(strip.text.x = element_blank())
+plotA12
+
+png(filename = paste(new_dir, "/A1expression_violin.png", sep=""), width = 1000)
+plotA11
+dev.off()
+
+plotA13 <- FeaturePlot(A1_Tissue, features = A1_marker.features)
+plotA14 <- FeaturePlot(A1_Tissue, features = rownames(A1_de_markers)[1:5])
+plotA13
+plot14
+
+####################
+#####B1 Tissue######
+####################
+
+B1_Tissue <- Load10X_Spatial(data.dir = "C:/Users/molly_iwzteu2/Onedrive/Desktop/10X/B1/outs/",
+                             filename = "filtered_feature_bc_matrix.h5",
+                             assay = "B1",
+                             slice = "B1_Tissue",
+                             filter.matrix = TRUE,
+                             to.upper = FALSE,
+                             image = NULL)
+
+##Initial plots to determine if normalization is needed
+plotB1 <- VlnPlot(B1_Tissue, features = "nFeature_B1", pt.size = 0.1) + NoLegend()
+plotB1 <- plotB1+ xlab("B1 Tissue") + theme(axis.text.x=element_blank(),
+                                            axis.ticks.x=element_blank())
+plotB2 <-  SpatialFeaturePlot(B1_Tissue, features = "nFeature_B1") + theme(legend.position = "right")
+
+png(filename = paste(new_dir, "/B1pre_norm_features.png", sep=""), width = 1000)
+wrap_plots(plotB1, plotB2)
+dev.off() 
+
+B1_Tissue <- SCTransform(B1_Tissue, assay = "B1", verbose = FALSE)
+
+B1_Tissue <- NormalizeData(B1_Tissue, assay = "B1")
+B1_Tissue <- FindVariableFeatures(B1_Tissue, assay = "B1")
+B1_Tissue <- ScaleData(B1_Tissue, assay = "SCT")
+
+plotB3 <- VlnPlot(B1_Tissue, features = "nFeature_B1", pt.size = 0.1) + NoLegend()
+plotB3 <- plotB3 + xlab("B1_Tissue") + theme(axis.text.x=element_blank(),
+                                             axis.ticks.x=element_blank())
+
+plotB4 <- SpatialFeaturePlot(B1_Tissue, features = "nFeature_B1") + theme(legend.position = "right")
+plotB4.5 <- SpatialFeaturePlot(B1_Tissue, features = "nCount_B1") + theme(legend.position = "right")
+
+#Clustering
+B1_Tissue <- RunPCA(B1_Tissue, assay = "SCT", verbose = FALSE)
+B1_Tissue <- FindNeighbors(B1_Tissue, reduction = "pca", dims = 1:30)
+B1_Tissue <- FindClusters(B1_Tissue, graph.name = "SCT_snn", verbose = FALSE)
+B1_Tissue <- RunUMAP(B1_Tissue, reduction = "pca", dims = 1:30)
+
+#UMAP plot
+plotB5 <- DimPlot(B1_Tissue, reduction = "umap", label = TRUE)+ ggtitle("B1 Tissue Clusters") + theme(plot.title = element_text(hjust = 0.5)) +theme(legend.title = element_text(colour="black", size=10, face="bold"))
+plotB6 <- SpatialDimPlot(B1_Tissue, label = TRUE, label.size = 2)+ ggtitle("B1 Spatial Clustering") +theme(plot.title = element_text(hjust = 0.5))  + theme(legend.title = element_text(colour="black", size=10, 
+                                                                                                                                                                                        face="bold")) + scale_fill_discrete(name = "Clusters") + theme(legend.key.size = unit(15, 'mm')) + guides( color = guide_legend(override.aes = list(size = 10))) 
+
+#Spatial UMAP plot with each cluster separated, choose cluster with idents
+plotB7 <- SpatialDimPlot(B1_Tissue, cells.highlight = CellsByIdentities(object = B1_Tissue, idents = c(0,5,4,1,2,6,3,7,8)),
+                         facet.highlight = TRUE, 
+                         cols.highlight = c("#00A9FF", "grey50"),
+                         ncol = 3)
+
+png(filename = paste(new_dir, "/B1separated_clusters.png", sep=""), width = 1000)
+plotB7
+dev.off()
+
+#identification of features that correlate with special location, first method, (not preferred)
+#ident.1/2 are used to specify clusters
+B1_de_markers <- FindMarkers(B1_Tissue, ident.1 = 3, ident.2 = 2, min.pct = 0.25)
+plotB8 <- SpatialFeaturePlot(object = B1_Tissue, features = rownames(B1_de_markers)[1:5], alpha = c(0.1, 1), ncol = 5)
+
+png(filename = paste(new_dir, "/B1de_markers.png", sep=""), width = 1000)
+plotB8
+dev.off()
+
+
+#Second method - First step takes a very long time(Run overnight for 1000 features)
+B1_Tissue <- FindSpatiallyVariableFeatures(B1_Tissue, assay = "SCT", features = VariableFeatures(B1_Tissue)[1:1000],
+                                           selection.method = "markvariogram")
+
+#Get info on what top HVG ares
+B1_top_features <- head(SpatiallyVariableFeatures(B1_Tissue, selection.method = "markvariogram"), 100)
+plotB9 <- SpatialFeaturePlot(B1_Tissue, features = B1_top_features, ncol = 5)
+
+png(filename = paste(new_dir, "/B1top_variable_features.png", sep=""), width = 1000)
+plotB9
+dev.off()
+
+#Marker features based on canonical identification genes found in literature
+B1_marker.features <- c(#gene of interest here)
+plotB10<- SpatialFeaturePlot(B1_Tissue, features = B1_marker.features, ncol = 3, alpha = c(0.1, 1))
+plotB10
+
+#Violin plot shows expression level os features of interest in each cluster
+plotB11 <- VlnPlot(B1_Tissue, features = B1_top_features) + theme(strip.text.x = element_blank())
+plotB12 <- VlnPlot(B1_Tissue, features = B1_marker.features) + theme(strip.text.x = element_blank())
+plotB12
+
+png(filename = paste(new_dir, "/B1expression_violin.png", sep=""), width = 1000)
+plotB11
+dev.off()
+
+plotB13 <- FeaturePlot(B1_Tissue, features = B1_marker.features)
+plotB14 <- FeaturePlot(B1_Tissue, features = rownames(B1_de_markers)[1:5])
+plotB13
+plotB14
+
+####################
+#####C1 Tissue######
+####################
+
+C1_Tissue <- Load10X_Spatial(data.dir = "C:/Users/molly_iwzteu2/Onedrive/Desktop/10X/C1/outs/",
+                             filename = "filtered_feature_bc_matrix.h5",
+                             assay = "C1",
+                             slice = "C1_Tissue",
+                             filter.matrix = TRUE,
+                             to.upper = FALSE,
+                             image = NULL)
+
+##Initial plots to determine if normalization is needed
+plotC1 <- VlnPlot(C1_Tissue, features = "nFeature_C1", pt.size = 0.1) + NoLegend()
+plotC1 <- plotC1+ xlab("C1 Tissue") + theme(axis.text.x=element_blank(),
+                                            axis.ticks.x=element_blank())
+plotC2 <-  SpatialFeaturePlot(C1_Tissue, features = "nFeature_C1") + theme(legend.position = "right")
+
+png(filename = paste(new_dir, "/C1pre_norm_features.png", sep=""), width = 1000)
+wrap_plots(plotC1, plotC2)
+dev.off() 
+
+C1_Tissue <- SCTransform(C1_Tissue, assay = "C1", verbose = FALSE)
+
+C1_Tissue <- NormalizeData(C1_Tissue, assay = "C1")
+C1_Tissue <- FindVariableFeatures(C1_Tissue, assay = "C1")
+C1_Tissue <- ScaleData(C1_Tissue, assay = "SCT")
+
+plotC3 <- VlnPlot(C1_Tissue, features = "nFeature_C1", pt.size = 0.1) + NoLegend()
+plotC3 <- plotC3 + xlab("C1_Tissue") + theme(axis.text.x=element_blank(),
+                                             axis.ticks.x=element_blank())
+
+plotC4 <- SpatialFeaturePlot(C1_Tissue, features = "nFeature_C1") + theme(legend.position = "right")
+plotC4.5 <- SpatialFeaturePlot(C1_Tissue, features = "nCount_C1") + theme(legend.position = "right")
+
+#Clustering
+C1_Tissue <- RunPCA(C1_Tissue, assay = "SCT", verbose = FALSE)
+C1_Tissue <- FindNeighbors(C1_Tissue, reduction = "pca", dims = 1:30)
+C1_Tissue <- FindClusters(C1_Tissue, graph.name = "SCT_snn", verbose = FALSE)
+C1_Tissue <- RunUMAP(C1_Tissue, reduction = "pca", dims = 1:30)
+
+#UMAP plot
+plotC5 <- DimPlot(D1_Tissue, reduction = "umap", label = TRUE)+ ggtitle("C1 Tissue Clusters") + theme(plot.title = element_text(hjust = 0.5)) +theme(legend.title = element_text(colour="black", size=10, 
+                                                                                                                                                                                 face="bold"))
+plotC6 <- SpatialDimPlot(D1_Tissue, label = TRUE, label.size = 2, )+ ggtitle("C1 Spatial Clustering") +theme(plot.title = element_text(hjust = 0.5)) + theme(legend.title = element_text(colour="black", size=10, 
+                                                                                                        face="bold")) + scale_fill_discrete(name = "Clusters") + theme(legend.key.size = unit(15, 'mm')) + guides( color = guide_legend(override.aes = list(size = 10))) 
+
+
+#Spatial UMAP plot with each cluster separated, choose cluster with idents
+plotC7 <- SpatialDimPlot(C1_Tissue, cells.highlight = CellsByIdentities(object = C1_Tissue, idents = c(3,4,0,6,2,5,1,7,8)),
+                         facet.highlight = TRUE, 
+                         cols.highlight = c("#00A9FF", "grey50"),
+                         ncol = 3)
+
+png(filename = paste(new_dir, "/C1separated_clusters.png", sep=""), width = 1000)
+plotC7
+dev.off()
+
+#identification of features that correlate with special location, first method, (not preferred)
+#ident.1/2 are used to specify clusters
+C1_de_markers <- FindMarkers(C1_Tissue, ident.1 = 3, ident.2 = 2, min.pct = 0.25)
+plotC8 <- SpatialFeaturePlot(object = C1_Tissue, features = rownames(C1_de_markers)[1:5], alpha = c(0.1, 1), ncol = 5)
+
+png(filename = paste(new_dir, "/C1de_markers.png", sep=""), width = 1000)
+plotC8
+dev.off()
+
+
+#Second method - First step takes a very long time(Run overnight for 1000 features)
+C1_Tissue <- FindSpatiallyVariableFeatures(C1_Tissue, assay = "SCT", features = VariableFeatures(C1_Tissue)[1:1000],
+                                           selection.method = "markvariogram")
+
+#Get info on what top HVG ares
+C1_top_features <- head(SpatiallyVariableFeatures(C1_Tissue, selection.method = "markvariogram"), 100)
+plotC9 <- SpatialFeaturePlot(C1_Tissue, features = C1_top_features, ncol = 5)
+
+png(filename = paste(new_dir, "/C1top_variable_features.png", sep=""), width = 1000)
+plotC9
+dev.off()
+
+#Marker features based on canonical identification genes found in literature
+C1_marker.features <- c(#Gene of interest here)
+plotC10<- SpatialFeaturePlot(C1_Tissue, features = C1_marker.features, ncol = 3, alpha = c(0.1, 1))
+plotC10
+
+#Violin plot shows expression level os features of interest in each cluster
+plotC11 <- VlnPlot(C1_Tissue, features = C1_top_features) + theme(strip.text.x = element_blank())
+plotC12 <- VlnPlot(C1_Tissue, features = C1_marker.features) + theme(strip.text.x = element_blank())
+plotC12
+
+png(filename = paste(new_dir, "/C1expression_violin.png", sep=""), width = 1000)
+plotC11
+dev.off()
+
+plotC13 <- FeaturePlot(C1_Tissue, features = C1_marker.features)
+plotC14 <- FeaturePlot(C1_Tissue, features = rownames(C1_de_markers)[1:5])
+plotC13
+plotC14
+
+
+####################
+#####D1 Tissue######
+####################
+
+D1_Tissue <- Load10X_Spatial(data.dir = "C:/Users/molly_iwzteu2/Onedrive/Desktop/10X/D1/outs/",
+                             filename = "filtered_feature_bc_matrix.h5",
+                             assay = "D1",
+                             slice = "D1_Tissue",
+                             filter.matrix = TRUE,
+                             to.upper = FALSE,
+                             image = NULL)
+
+##Initial plots to determine if normalization is needed
+plotD1 <- VlnPlot(D1_Tissue, features = "nFeature_D1", pt.size = 0.1) + NoLegend()
+plotD1 <- plotD1+ xlab("D1 Tissue") + theme(axis.text.x=element_blank(),
+                                            axis.ticks.x=element_blank())
+plotD2 <-  SpatialFeaturePlot(D1_Tissue, features = "nFeature_D1") + theme(legend.position = "right")
+
+png(filename = paste(new_dir, "/D1pre_norm_features.png", sep=""), width = 1000)
+wrap_plots(plotD1, plotD2)
+dev.off() 
+
+D1_Tissue <- SCTransform(D1_Tissue, assay = "D1", verbose = FALSE)
+
+D1_Tissue <- NormalizeData(D1_Tissue, assay = "D1")
+D1_Tissue <- FindVariableFeatures(D1_Tissue, assay = "D1")
+D1_Tissue <- ScaleData(D1_Tissue, assay = "SCT")
+
+plotD3 <- VlnPlot(D1_Tissue, features = "nFeature_D1", pt.size = 0.1) + NoLegend()
+plotD3 <- plotD3 + xlab("D1_Tissue") + theme(axis.text.x=element_blank(),
+                                             axis.ticks.x=element_blank())
+
+plotD4 <- SpatialFeaturePlot(D1_Tissue, features = "nFeature_D1") + theme(legend.position = "right")
+plotD4.5 <- SpatialFeaturePlot(D1_Tissue, features = "nCount_D1") + theme(legend.position = "right")
+
+#Clustering
+D1_Tissue <- RunPCA(D1_Tissue, assay = "SCT", verbose = FALSE)
+D1_Tissue <- FindNeighbors(D1_Tissue, reduction = "pca", dims = 1:30)
+D1_Tissue <- FindClusters(D1_Tissue, graph.name = "SCT_snn", verbose = FALSE)
+D1_Tissue <- RunUMAP(D1_Tissue, reduction = "pca", dims = 1:30)
+
+#UMAP plot
+plotD5 <- DimPlot(D1_Tissue, reduction = "umap", label = TRUE)+ ggtitle("D1 Tissue Clusters") + theme(plot.title = element_text(hjust = 0.5)) +theme(legend.title = element_text(colour="black", size=10, 
+                                                                                                                                                                                 face="bold"))
+plotD6 <- SpatialDimPlot(D1_Tissue, label = TRUE, label.size = 2, )+ ggtitle("D1 Spatial Clustering") +theme(plot.title = element_text(hjust = 0.5)) + theme(legend.title = element_text(colour="black", size=10, 
+                                                                                                        face="bold")) + scale_fill_discrete(name = "Clusters") + theme(legend.key.size = unit(15, 'mm')) + guides( color = guide_legend(override.aes = list(size = 10))) 
+
+#Spatial UMAP plot with each cluster separated, choose cluster with idents
+plotD7 <- SpatialDimPlot(D1_Tissue, cells.highlight = CellsByIdentities(object = D1_Tissue, idents = c(3,4,0,6,1,5,2,8,7)),
+                         facet.highlight = TRUE, 
+                         cols.highlight = c("#00A9FF", "grey50"),
+                         ncol = 3)
+
+png(filename = paste(new_dir, "/D1separated_clusters.png", sep=""), width = 1000)
+plotD7
+dev.off()
+
+#identification of features that correlate with special location, first method, (not preferred)
+#ident.1/2 are used to specify clusters
+D1_de_markers <- FindMarkers(D1_Tissue, ident.1 = 3, ident.2 = 2, min.pct = 0.25)
+plotD8 <- SpatialFeaturePlot(object = D1_Tissue, features = rownames(D1_de_markers)[1:5], alpha = c(0.1, 1), ncol = 5)
+
+png(filename = paste(new_dir, "/D1de_markers.png", sep=""), width = 1000)
+plotD8
+dev.off()
+
+
+#Second method - First step takes a very long time(Run overnight for 1000 features)
+D1_Tissue <- FindSpatiallyVariableFeatures(D1_Tissue, assay = "SCT", features = VariableFeatures(D1_Tissue)[1:1000],
+                                           selection.method = "markvariogram")
+
+#Get info on what top HVG ares
+D1_top_features <- head(SpatiallyVariableFeatures(D1_Tissue, selection.method = "markvariogram"), 100)
+plotD9 <- SpatialFeaturePlot(D1_Tissue, features = D1_top_features, ncol = 5)
+
+png(filename = paste(new_dir, "/D1top_variable_features.png", sep=""), width = 1000)
+plotD9
+dev.off()
+
+#Marker features based on canonical identification genes found in literature
+D1_marker.features <- c(#Gene of interest here)
+plotD10<- SpatialFeaturePlot(D1_Tissue, features = D1_marker.features, ncol = 3, alpha = c(0.1, 1))
+plotD10
+
+#Violin plot shows expression level os features of interest in each cluster
+plotD11 <- VlnPlot(D1_Tissue, features = D1_top_features) + theme(strip.text.x = element_blank())
+plotD12 <- VlnPlot(D1_Tissue, features = D1_marker.features) + theme(strip.text.x = element_blank())
+plotD12
+
+png(filename = paste(new_dir, "/D1expression_violin.png", sep=""), width = 1000)
+plotD11
+dev.off()
+
+plotD13 <- FeaturePlot(D1_Tissue, features = D1_marker.features)
+plotD14 <- FeaturePlot(D1_Tissue, features = rownames(D1_de_markers)[1:5])
+plotD13
+plotD14
