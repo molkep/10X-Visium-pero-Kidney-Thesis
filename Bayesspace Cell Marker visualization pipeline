@@ -1,0 +1,110 @@
+library(SingleCellExperiment)
+library(ggplot2)
+library(BayesSpace)
+
+A1_Tissue = Seurat::FindVariableFeatures(A1_Tissue) #Simple Seurat workflow for PCs
+A1_Tissue = Seurat::ScaleData(A1_Tissue)
+A1_Tissue = Seurat::RunPCA(A1_Tissue)
+
+diet.seurat = Seurat::DietSeurat(A1_Tissue, graphs = "pca") #slim down Seurat obj prior to conversion
+sce = as.SingleCellExperiment(diet.seurat) #convert seurat to SCE
+colData(sce) = cbind(colData(sce), A1_Tissue@images$A1_Tissue@coordinates) #add spatial info to SCE
+
+set.seed(102)
+sce <- spatialPreprocess(sce, platform="Visium", 
+                              n.PCs=7, n.HVGs=2000, log.normalize=TRUE)
+
+sce <- qTune(sce, qs=seq(2, 10), platform="Visium", d=7)
+qPlot(sce)
+
+set.seed(149)
+sce <- spatialCluster(sce, q=7, platform="Visium", d=7,
+                           init.method="mclust", model="t", gamma=2,
+                           nrep=1000, burn.in=100,
+                           save.chain=TRUE)
+clusterPlot(sce)
+
+clusterPlot(sce, palette=c("purple", "darkgreen", "blue", "lightblue", "pink", "darkred"), color="black") +
+  theme_bw() +
+  xlab("Column") +
+  ylab("Row") +
+  labs(fill="BayesSpace\ncluster", title="Spatial clustering of A1 Kidney")
+
+sce.enhanced <- spatialEnhance(sce, q=7, platform="Visium", d=7,
+                                    model="t", gamma=2,
+                                    jitter_prior=0.3, jitter_scale=3.5,
+                                    nrep=1000, burn.in=100,
+                                    save.chain=TRUE)
+                                    
+clusterPlot(sce.enhanced, palette=c("purple", "darkgreen", "blue", "lightblue", "pink", "darkred")) +
+  theme_bw() +
+  xlab("Column") +
+  ylab("Row") +
+  labs(fill="BayesSpace\ncluster", title="Spatial clustering of A1 Kidney")
+  
+  
+#CELL TYPE
+
+markers <- list()
+markers[["Endo"]] <- c('ENG', 'PLAC8', 'TSPAN8', 'KDR', 'ETS1',  'PROX1')
+markers[["Podo"]] <- c("NPHS1", 'NPHS2',  'CD2AP')
+markers[["Mes"]] <-c('FN1', 'PAWR', 'PTN', 'SERPINE2')
+markers[["PT"]] <- c('AGXT2', 'CYP2E1', 'CRYL1', 'GLYAT', 'SORD', 'PDZK1', 'UPB1', 'SOD3', 'HNF4A')
+markers[["CNT"]] <- c("CALB1")
+markers[["LOH"]] <- c("SLC12A1", "UMOD")
+markers[["DCT"]] <- c('FETUB', 'PCOLCE',  'SGCA', 'SLC12A3')
+markers[["CD-PC"]] <- c("ACER2", 'AQP3', 'AQP4', 'AVPR2', 'FXYD4', 'FZD1', 'PTGES', 'STC1', 'TMEM45B', 'TSPAN1')
+markers[["CD-IC"]] <- c("ATP6V1G3", 'RHCG', 'ADGRF5', 'JAG1', 'INSRR', 'P2RY14', 'DMRT2',  'CLCNKA', 'AVPR1A',  'TMEM213','AQP6',  'ATP6V1B1')
+#markers[["CD-Trans"]] <- c("INSRR", "RHBG")
+markers[["Fib"]] <- c("COL1A1")
+markers[["Macro"]] <- c("CD68", 'PPARG')
+markers[["Neutro"]] <- c("S100A8", "S100A9")
+markers[["B lymph"]] <- c("SPIB")
+#markers[["T lymph"]] <- c("LTB", "NKG7")
+
+
+
+markers.PT <- list()
+markers.PT[["PT"]] <- c('AGXT2', 'CYP2E1', 'CRYL1', 'GLYAT', 'SORD', 'PDZK1', 'UPB1', 'SOD3', 'HNF4A')
+markers.PT[["S1"]] <- c('NME4', 'APOE', 'SLC5A2')
+markers.PT[["S2"]] <- c("SLC5A1", 'HGD', 'OSGIN1', 'HSD11B1', 'SERPINF2', 'HAAO', 'SLC7A13', 'PPIC')
+markers.PT[["S3"]] <- c('GNG13', 'SLC23A3', 'SLC22A13', 'RBP4')
+
+markers.LOH <- list()
+markers.LOH[["LOH"]] <- c("SLC12A1", "UMOD")
+markers.LOH[["SLDL"]] <- c('RGS5', 'COX4I2', 'CYP4B1','SH3RF2')
+markers.LOH[["LDL"]] <- c( 'ADAMTS5', 'GEM',  'PLA2G7', 'THBS1', 'SLC14A2')
+markers.LOH[["THINAL"]] <- c("NGRN",  'NEK6',  'CLCNKA')
+markers.LOH[["THICKAL"]] <- c("UMOD", 'SLC12A1', 'SMARCD3','LRRC66')
+
+
+sce.enhanced <- enhanceFeatures(sce.enhanced, sce,
+                                model="xgboost",
+                                feature_names=purrr::reduce(markers, c),
+                                nrounds=0)
+
+sum_counts <- function(sce, features) {
+  if (length(features) > 1) {
+    colSums(logcounts(sce)[features, ])
+  } else {
+    logcounts(sce)[features, ]
+  }
+}
+spot_expr <- purrr::map(markers, function(x) sum_counts(sce, x))
+enhanced_expr <- purrr::map(markers, function(x) sum_counts(sce.enhanced, x))
+
+
+plot_expression <- function(sce, expr, name) {
+  featurePlot(sce, expr, color=NA) +
+    viridis::scale_fill_viridis(option="A") +
+    labs(title=name, fill="Log-normalized\nexpression")
+}
+
+
+spot_plots <- purrr::imap(spot_expr, function(x, y) plot_expression(sce, x, y))
+patchwork::wrap_plots(spot_plots, ncol=3)
+
+
+
+
+
