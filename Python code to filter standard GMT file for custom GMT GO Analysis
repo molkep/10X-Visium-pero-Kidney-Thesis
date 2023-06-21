@@ -1,0 +1,55 @@
+#! /usr/bin/env python3
+
+import os, argparse
+
+parser = argparse.ArgumentParser(description='Filtering GO terms')
+
+parser.add_argument('-g','--gmt', help='Path to the gmt file')
+parser.add_argument('-c', '--cluster', help='Path to the txt file with genes per cluster')
+
+args = parser.parse_args()
+
+gmt_file = args.gmt
+cluster_file = args.cluster
+
+# gmt_file = 'test.GO:MF.gmt'
+# cluster_file = 'genes.txt'
+
+
+def gene_filter(gmt_file, cluster_file):
+    gene_list = []
+    line_check = []  # Check so that same line is not rewritten twice
+    new_lines = []
+    cluster_name = cluster_file.split('.')[0]
+    gmt_type = gmt_file.split('.')[1]
+
+    with open(cluster_file, 'r') as inf, open(gmt_file, 'r') as inf2, open('temp.gmt', 'w') as outf:
+        for line in inf:
+            if line.strip() == '':
+                continue
+            gene = line.strip().strip('"')
+            gene_list.append(gene)  # Add each gene to list to search gmt file with
+
+        gmt_lines = inf2.readlines()
+        for line_number, line in enumerate(gmt_lines, 1):  # Start line numbering from 1
+            line_list = line.split('\t')[2:]  # Exclude the first two columns
+            filtered_line = [gene for gene in line_list if gene.upper() in gene_list]
+            if filtered_line:
+                if line_number not in line_check:  # Only write to filtered file if line in gmt file not already in filtered file
+                    new_line = '\t'.join([line.split('\t')[0], line.split('\t')[1]] + filtered_line)
+                    new_line += '\n'
+                    new_lines.append(new_line)
+                    line_check.append(line_number)
+
+        outf.writelines(new_lines)
+
+    with open('temp.gmt', 'r') as inf3, open('{0}.{1}.gmt'.format(cluster_name, gmt_type), 'w') as outf2:
+        lines = [line.strip().split('\t') for line in inf3]
+        lines.sort(key=lambda x: x[0])  # Sort the lines in the new filtered gmt file by the GO term
+        for line in lines:
+            outf2.writelines('\t'.join(line) + '\n')
+
+    os.remove('temp.gmt')
+
+gene_filter(gmt_file, cluster_file)
+    
