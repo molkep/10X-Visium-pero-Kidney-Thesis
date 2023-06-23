@@ -1,0 +1,33 @@
+A1_Tissue <- Load10X_Spatial(data.dir = "C:/Users/molly_iwzteu2/Onedrive/Desktop/10X/A1/outs/",
+                             filename = "filtered_feature_bc_matrix.h5",
+                             assay = "A1",
+                             slice = "A1_Tissue",
+                             filter.matrix = TRUE,
+                             to.upper = FALSE,
+                             image = NULL)
+
+A1_Tissue <- SCTransform(A1_Tissue, assay = "A1", verbose = FALSE)
+
+A1_Tissue <- NormalizeData(A1_Tissue, assay = "A1")
+A1_Tissue <- FindVariableFeatures(A1_Tissue, assay = "A1")
+A1_Tissue <- ScaleData(A1_Tissue, assay = "SCT")
+
+A1_Tissue <- RunPCA(A1_Tissue, assay = "SCT", verbose = FALSE)
+A1_Tissue <- FindNeighbors(A1_Tissue, reduction = "pca", dims = 1:30)
+A1_Tissue <- FindClusters(A1_Tissue, graph.name = "SCT_snn", verbose = FALSE)
+A1_Tissue <- RunUMAP(A1_Tissue, reduction = "pca", dims = 1:30)
+
+A1_Tissue <- FindSpatiallyVariableFeatures(A1_Tissue, assay = "SCT", features = VariableFeatures(A1_Tissue)[1:1000],
+                                           selection.method = "markvariogram")
+
+
+A1.markers <- FindAllMarkers(A1_Tissue, only.pos = TRUE, min.pct = 0.25, logfc.threshold = .25)
+A1.markers %>%
+  group_by(cluster) %>%
+  slice_max(n = 2, order_by = avg_log2FC)
+
+
+A1.markers %>%
+  group_by(cluster) %>%
+  top_n(n = 10, wt = avg_log2FC) -> top10
+HeatMap<- DoHeatmap(A1_Tissue, features = top10$gene)
