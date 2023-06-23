@@ -1,0 +1,48 @@
+
+#! /usr/bin/env python3
+
+#gffread code to make gtf
+gffread /path/to/functgional/gff -T -o output_file_name.gtf
+
+#spaceranger mkgtf function for filtering gtf for reference package use
+spaceranger mkgtf /path/to/gtf/file name_of_new_file.gtf \
+                   --attribute=gene_biotype:protein_coding \
+                   --attribute=gene_biotype:lincRNA \
+                   --attribute=gene_biotype:antisense \
+                   --attribute=gene_biotype:IG_LV_gene \
+                   --attribute=gene_biotype:IG_V_gene \
+                   --attribute=gene_biotype:IG_V_pseudogene \
+                   --attribute=gene_biotype:IG_D_gene \
+                   --attribute=gene_biotype:IG_J_gene \
+                   --attribute=gene_biotype:IG_J_pseudogene \
+                   --attribute=gene_biotype:IG_C_gene \
+                   --attribute=gene_biotype:IG_C_pseudogene \
+                   --attribute=gene_biotype:TR_V_gene \
+                   --attribute=gene_biotype:TR_V_pseudogene \
+                   --attribute=gene_biotype:TR_D_gene \
+                   --attribute=gene_biotype:TR_J_gene \
+                   --attribute=gene_biotype:TR_J_pseudogene \
+                   --attribute=gene_biotype:TR_C_gene
+
+
+#Spaceranger mkeref code to make reference package from previously generated gtf and genome file
+
+spaceranger mkref --genome=genome_ref_name_here --fasta=path/to/fasta/file/for/genome --genes=/path/to/gtf/file/you/made
+
+#spaceranger count code
+
+spaceranger count --id="output_directory_name" \
+                   --description="put description here" \
+                   --transcriptome=/path/to/reference/directory \
+                   --fastqs=/path/to/raw/fastqs \
+                   --image=/path/to/tissue/tifs \
+                   --slidefile=/path/to/slide/file \
+                   --slide=slide_code \
+                   --area=sample_ID \
+                   --localcores=16 \
+                   --localmem=128
+
+
+
+
+
