@@ -1,7 +1,0 @@
-Cluster File,GO Term,GO ID,P-Value
-0,Phenylalanine and tyrosine metabolism,REAC:R-MMU-8963691,0.04996441
-2,Mt3-Hsp84-Ck complex,CORUM:677,0.05
-2,unfolded protein binding,GO:0051082,0.049931054
-8,regulation of growth,GO:0040008,0.049888464
-8,secretory granule,GO:0030141,0.016679576
-8,unfolded protein binding,GO:0051082,0.04994506
