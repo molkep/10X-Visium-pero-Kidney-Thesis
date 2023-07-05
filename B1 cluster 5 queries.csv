@@ -1,0 +1,95 @@
+Cluster File,GO Term,GO ID,P-Value
+0,"Cytochrome bc1-complex, mitochondrial",CORUM:495,0.049914862
+0,organic acid metabolic process,GO:0006082,3.09E-07
+0,oxoacid metabolic process,GO:0043436,3.09E-07
+0,carboxylic acid metabolic process,GO:0019752,6.01E-07
+0,small molecule metabolic process,GO:0044281,5.06053E-05
+0,response to extracellular stimulus,GO:0009991,0.001903841
+0,response to nutrient levels,GO:0031667,0.001903841
+0,monocarboxylic acid metabolic process,GO:0032787,0.003520623
+0,carbohydrate metabolic process,GO:0005975,0.003915771
+0,lipid metabolic process,GO:0006629,0.009074249
+0,cellular modified amino acid metabolic process,GO:0006575,0.023559313
+0,carbohydrate derivative metabolic process,GO:1901135,0.033369517
+0,apical plasma membrane,GO:0016324,0.000576431
+0,apical part of cell,GO:0045177,0.000675276
+0,plasma membrane region,GO:0098590,0.003493396
+0,basolateral plasma membrane,GO:0016323,0.006202186
+0,Metabolism,REAC:R-MMU-1430728,1.64866E-05
+0,Metapathway biotransformation,WP:WP1251,0.019127905
+1,organic acid metabolic process,GO:0006082,0.006049637
+1,oxoacid metabolic process,GO:0043436,0.006049637
+1,carboxylic acid metabolic process,GO:0019752,0.029146541
+1,small molecule metabolic process,GO:0044281,0.047558001
+1,Metabolism,REAC:R-MMU-1430728,0.01213391
+2,Respiratory distress,HP:0002098,0.049970642
+2,mmu-miR-141-3p,MIRNA:mmu-miR-141-3p,0.049603175
+2,Distal convoluted tubule 1 (DCT1) cell,WP:WP4183,0.049885264
+4,small molecule metabolic process,GO:0044281,0.00048001
+4,organic acid metabolic process,GO:0006082,0.010341603
+4,oxoacid metabolic process,GO:0043436,0.010341603
+4,carboxylic acid metabolic process,GO:0019752,0.01772433
+4,oxidoreductase activity,GO:0016491,0.01850575
+4,Abnormal homeostasis,HP:0012337,0.009530543
+4,Abnormality of metabolism/homeostasis,HP:0001939,0.014118478
+4,Metabolism,REAC:R-MMU-1430728,0.034311839
+6,intracellular pH reduction,GO:0051452,0.02378162
+6,vacuolar acidification,GO:0007035,0.02378162
+6,vacuolar proton-transporting V-type ATPase complex,GO:0016471,0.000224487
+6,proton-transporting V-type ATPase complex,GO:0033176,0.000224487
+6,ATPase complex,GO:1904949,0.00716497
+6,proton-transporting two-sector ATPase complex,GO:0016469,0.00716497
+6,vacuolar membrane,GO:0005774,0.00716497
+6,ATPase-coupled ion transmembrane transporter activity,GO:0042625,0.000126171
+6,"proton-transporting ATPase activity, rotational mechanism",GO:0046961,0.000126171
+6,"ATPase activity, coupled to transmembrane movement of ions, rotational mechanism",GO:0044769,0.000126171
+6,pyrophosphate hydrolysis-driven proton transmembrane transporter activity,GO:0009678,0.000126171
+6,ATPase-coupled monoatomic cation transmembrane transporter activity,GO:0019829,0.001789446
+6,ATPase-coupled transmembrane transporter activity,GO:0042626,0.001789446
+6,proton transmembrane transporter activity,GO:0015078,0.004059519
+6,ATP-dependent activity,GO:0140657,0.013811083
+6,primary active transmembrane transporter activity,GO:0015399,0.013811083
+6,inorganic molecular entity transmembrane transporter activity,GO:0015318,0.01981033
+6,active monoatomic ion transmembrane transporter activity,GO:0022853,0.022374218
+6,monoatomic ion transmembrane transporter activity,GO:0015075,0.026721343
+6,active transmembrane transporter activity,GO:0022804,0.049815971
+6,ROS and RNS production in phagocytes,REAC:R-MMU-1222556,0.000266489
+6,Insulin receptor recycling,REAC:R-MMU-77387,0.000266489
+6,Transferrin endocytosis and recycling,REAC:R-MMU-917977,0.000266489
+6,Signaling by Insulin receptor,REAC:R-MMU-74752,0.000266489
+6,Amino acids regulate mTORC1,REAC:R-MMU-9639288,0.000266489
+6,Cellular response to starvation,REAC:R-MMU-9711097,0.000266489
+6,Iron uptake and transport,REAC:R-MMU-917937,0.00128803
+6,Signaling by Receptor Tyrosine Kinases,REAC:R-MMU-9006934,0.008420339
+6,Ion channel transport,REAC:R-MMU-983712,0.011325135
+6,Cellular responses to stimuli,REAC:R-MMU-8953897,0.048246528
+6,Cellular responses to stress,REAC:R-MMU-2262752,0.048246528
+6,"GPCRs, non-odorant ",WP:WP1396,0.016952984
+7,Myoglobinuria,HP:0002913,0.04982561
+7,Rhabdomyolysis,HP:0003201,0.04982561
+7,Exercise-induced muscle cramps,HP:0003710,0.04982561
+7,Glycolysis,REAC:R-MMU-70171,0.049954541
+7,Gluconeogenesis,REAC:R-MMU-70263,0.049954541
+7,Glucose metabolism,REAC:R-MMU-70326,0.049954541
+7,Metabolism of carbohydrates,REAC:R-MMU-71387,0.049954541
+7,Glycolysis and gluconeogenesis,WP:WP157,0.049534377
+8,oxoacid metabolic process,GO:0043436,0.005263805
+8,organic acid metabolic process,GO:0006082,0.005263805
+8,carboxylic acid metabolic process,GO:0019752,0.005263805
+8,alpha-amino acid metabolic process,GO:1901605,0.012749079
+8,amino acid metabolic process,GO:0006520,0.049918928
+8,monocarboxylic acid metabolic process,GO:0032787,0.049918928
+8,mmu-miR-291a-3p,MIRNA:mmu-miR-291a-3p,0.049875312
+8,mmu-miR-380-3p,MIRNA:mmu-miR-380-3p,0.049875312
+8,mmu-miR-302d-3p,MIRNA:mmu-miR-302d-3p,0.049875312
+8,mmu-miR-302b-3p,MIRNA:mmu-miR-302b-3p,0.049875312
+8,mmu-miR-302a-3p,MIRNA:mmu-miR-302a-3p,0.049875312
+8,mmu-miR-295-3p,MIRNA:mmu-miR-295-3p,0.049875312
+8,mmu-miR-294-3p,MIRNA:mmu-miR-294-3p,0.049875312
+8,mmu-miR-127-3p,MIRNA:mmu-miR-127-3p,0.049875312
+8,mmu-miR-5127,MIRNA:mmu-miR-5127,0.049875312
+8,mmu-miR-1186b,MIRNA:mmu-miR-1186b,0.049875312
+8,mmu-miR-1186a,MIRNA:mmu-miR-1186a,0.049875312
+8,mmu-miR-105,MIRNA:mmu-miR-105,0.049875312
+8,mmu-miR-150-5p,MIRNA:mmu-miR-150-5p,0.049875312
+8,Metabolism of amino acids and derivatives,REAC:R-MMU-71291,0.003454518

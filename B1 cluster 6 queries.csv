@@ -1,0 +1,56 @@
+Cluster File,GO Term,GO ID,P-Value
+0,intracellular iron ion homeostasis,GO:0006879,0.049817667
+0,intracellular sequestering of iron ion,GO:0006880,0.049817667
+0,regulation of fibroblast proliferation,GO:0048145,0.049817667
+0,negative regulation of fibroblast proliferation,GO:0048147,0.049817667
+0,sequestering of metal ion,GO:0051238,0.049817667
+0,negative regulation of necrotic cell death,GO:0060547,0.049817667
+0,sequestering of iron ion,GO:0097577,0.049817667
+0,autolysosome,GO:0044754,0.04988825
+0,endocytic vesicle lumen,GO:0071682,0.04988825
+0,secondary lysosome,GO:0005767,0.04988825
+0,"oxidoreductase activity, acting on metal ions, oxygen as acceptor",GO:0016724,0.04988825
+0,ferric iron binding,GO:0008199,0.04988825
+0,ferrous iron binding,GO:0008198,0.04988825
+0,ferroxidase activity,GO:0004322,0.04988825
+0,Abnormal circulating ferritin concentration,HP:0040133,0.049935084
+0,Increased circulating ferritin concentration,HP:0003281,0.049935084
+0,Iron homeostasis,WP:WP1596,0.049920128
+3,calcium ion binding,GO:0005509,0.048628359
+3,Incoordination,HP:0002311,0.029762064
+3,Oligohydramnios,HP:0001562,0.049963756
+3,Muscle contraction,REAC:R-MMU-397014,0.00939702
+3,Myometrial relaxation and contraction pathways,WP:WP385,0.013642203
+5,proton transmembrane transport,GO:1902600,0.016065366
+5,proton-transporting two-sector ATPase complex,GO:0016469,0.000935155
+5,vacuolar proton-transporting V-type ATPase complex,GO:0016471,0.000935155
+5,proton-transporting V-type ATPase complex,GO:0033176,0.000935155
+5,ATPase complex,GO:1904949,0.000935155
+5,vacuolar membrane,GO:0005774,0.012635582
+5,membrane protein complex,GO:0098796,0.017218788
+5,"ATPase activity, coupled to transmembrane movement of ions, rotational mechanism",GO:0044769,0.000825345
+5,"proton-transporting ATPase activity, rotational mechanism",GO:0046961,0.000825345
+5,ATPase-coupled ion transmembrane transporter activity,GO:0042625,0.000825345
+5,ATPase-coupled monoatomic cation transmembrane transporter activity,GO:0019829,0.003943317
+5,pyrophosphate hydrolysis-driven proton transmembrane transporter activity,GO:0009678,0.003943317
+5,proton transmembrane transporter activity,GO:0015078,0.003943317
+5,monoatomic ion transmembrane transporter activity,GO:0015075,0.009399117
+5,ATPase-coupled transmembrane transporter activity,GO:0042626,0.01130173
+5,primary active transmembrane transporter activity,GO:0015399,0.025187768
+5,inorganic molecular entity transmembrane transporter activity,GO:0015318,0.027152338
+5,active monoatomic ion transmembrane transporter activity,GO:0022853,0.048105376
+5,Ion channel transport,REAC:R-MMU-983712,0.000174085
+5,Insulin receptor recycling,REAC:R-MMU-77387,0.000507833
+5,Cellular response to starvation,REAC:R-MMU-9711097,0.000507833
+5,Signaling by Insulin receptor,REAC:R-MMU-74752,0.000507833
+5,Amino acids regulate mTORC1,REAC:R-MMU-9639288,0.000507833
+5,Transferrin endocytosis and recycling,REAC:R-MMU-917977,0.000507833
+5,Iron uptake and transport,REAC:R-MMU-917937,0.000507833
+5,Signal Transduction,REAC:R-MMU-162582,0.000572013
+5,Signaling by Receptor Tyrosine Kinases,REAC:R-MMU-9006934,0.002418252
+5,ROS and RNS production in phagocytes,REAC:R-MMU-1222556,0.002418252
+5,Cellular responses to stress,REAC:R-MMU-2262752,0.003225267
+5,Cellular responses to stimuli,REAC:R-MMU-8953897,0.003225267
+5,Transport of small molecules,REAC:R-MMU-382551,0.01085653
+5,"GPCRs, non-odorant ",WP:WP1396,0.049973029
+8,Abnormal renal physiology,HP:0012211,0.049915144

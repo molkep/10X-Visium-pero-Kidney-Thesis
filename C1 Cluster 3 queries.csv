@@ -1,0 +1,84 @@
+Cluster Files,GO Term,GO ID,P-Value
+0,response to salt,GO:1902074,0.049875794
+0,cell projection membrane,GO:0031253,0.049970328
+0,Polyuria,HP:0000103,0.049921523
+4,mmu-miR-709,MIRNA:mmu-miR-709,0.016666667
+4,SLC-mediated transmembrane transport,REAC:R-MMU-425407,0.049932757
+5,monoatomic anion transport,GO:0006820,0.04984051
+5,chloride transmembrane transport,GO:1902476,0.04984051
+5,inorganic anion transmembrane transport,GO:0098661,0.04984051
+5,monoatomic anion transmembrane transport,GO:0098656,0.04984051
+5,inorganic anion transport,GO:0015698,0.04984051
+5,chloride transport,GO:0006821,0.04984051
+5,monoatomic ion channel complex,GO:0034702,0.049885264
+5,chloride channel complex,GO:0034707,0.049885264
+5,gated channel activity,GO:0022836,0.04984051
+5,voltage-gated channel activity,GO:0022832,0.04984051
+5,voltage-gated monoatomic anion channel activity,GO:0008308,0.04984051
+5,chloride channel activity,GO:0005254,0.04984051
+5,monoatomic anion channel activity,GO:0005253,0.04984051
+5,voltage-gated chloride channel activity,GO:0005247,0.04984051
+5,monoatomic ion gated channel activity,GO:0022839,0.04984051
+5,voltage-gated monoatomic ion channel activity,GO:0005244,0.04984051
+5,Stimuli-sensing channels,REAC:R-MMU-2672351,0.049975012
+6,Cutis marmorata,HP:0000965,0.049880287
+6,Moyamoya phenomenon,HP:0011834,0.049880287
+6,Carotid artery dilatation,HP:0012163,0.049880287
+6,Cystic medial necrosis,HP:0012180,0.049880287
+6,Descending aortic dissection,HP:0012499,0.049880287
+6,Abnormal subarachnoid space morphology,HP:0012703,0.049880287
+6,Paroxysmal dyspnea,HP:0012763,0.049880287
+6,Cerebral infarct,HP:0025722,0.049880287
+6,Hyperintensity of cerebral white matter on MRI,HP:0030890,0.049880287
+6,Periventricular white matter hyperintensities,HP:0030891,0.049880287
+6,Hypovolemia,HP:0011106,0.049880287
+6,Abnormal gastrointestinal motility,HP:0030895,0.049880287
+6,Abnormal subclavian artery morphology,HP:0031251,0.049880287
+6,Abnormal aortic valve cusp morphology,HP:0031567,0.049880287
+6,Abnormal ascending aorta morphology,HP:0031784,0.049880287
+6,Abnormal sputum,HP:0032016,0.049880287
+6,Medial degeneration,HP:0032079,0.049880287
+6,Chest pain,HP:0100749,0.049880287
+6,Hypoperistalsis,HP:0100771,0.049880287
+6,Dural ectasia,HP:0100775,0.049880287
+6,Mucoid extracellular matrix accumulation,HP:0200146,0.049880287
+6,Abnormal peristalsis,HP:0030914,0.049880287
+6,Abnormal common carotid artery morphology,HP:0430021,0.049880287
+6,Abnormality of blood volume homeostasis,HP:0011104,0.049880287
+6,Abnormal cerebral artery morphology,HP:0009145,0.049880287
+6,Bicuspid aortic valve,HP:0001647,0.049880287
+6,Abnormal pleura morphology,HP:0002103,0.049880287
+6,Hemoptysis,HP:0002105,0.049880287
+6,Pneumothorax,HP:0002107,0.049880287
+6,Subarachnoid hemorrhage,HP:0002138,0.049880287
+6,Ischemic stroke,HP:0002140,0.049880287
+6,Abnormality of the spinal cord,HP:0002143,0.049880287
+6,Leukoencephalopathy,HP:0002352,0.049880287
+6,Abnormal periventricular white matter morphology,HP:0002518,0.049880287
+6,Abnormal spinal meningeal morphology,HP:0010303,0.049880287
+6,Intestinal malrotation,HP:0002566,0.049880287
+6,Aortic dissection,HP:0002647,0.049880287
+6,"High, narrow palate",HP:0002705,0.049880287
+6,Tachypnea,HP:0002789,0.049880287
+6,Pulmonary artery dilatation,HP:0004927,0.049880287
+6,Ascending aortic dissection,HP:0004933,0.049880287
+6,Dilatation of the cerebral artery,HP:0004944,0.049880287
+6,Descending thoracic aorta aneurysm,HP:0004959,0.049880287
+6,Abdominal aortic aneurysm,HP:0005112,0.049880287
+6,Aortic arch aneurysm,HP:0005113,0.049880287
+6,Gastrointestinal dysmotility,HP:0002579,0.049880287
+6,mmu-miR-29b-1-5p,MIRNA:mmu-miR-29b-1-5p,0.049935084
+7,Gata1-Fog1-MeCP1 complex,CORUM:2750,0.049850449
+7,Nkx3.2-SMAD1-SMAD4-HDAC-Sin3A complex,CORUM:2984,0.049850449
+7,PYR complex,CORUM:572,0.049850449
+7,cysteine-type endopeptidase inhibitor activity,GO:0004869,0.049957683
+7,Blepharitis,HP:0000498,0.04984051
+7,Slow-growing hair,HP:0002217,0.04984051
+7,Abnormality of hair growth rate,HP:0011363,0.04984051
+7,Abnormality of hair growth,HP:0040170,0.04984051
+7,Inflammatory abnormality of the eye,HP:0100533,0.04984051
+7,mmu-miR-3096b-5p,MIRNA:mmu-miR-3096b-5p,0.04984051
+7,mmu-miR-431-5p,MIRNA:mmu-miR-431-5p,0.04984051
+7,mmu-miR-539-5p,MIRNA:mmu-miR-539-5p,0.04984051
+7,mmu-miR-669e-5p,MIRNA:mmu-miR-669e-5p,0.04984051
+7,mmu-miR-690,MIRNA:mmu-miR-690,0.04984051

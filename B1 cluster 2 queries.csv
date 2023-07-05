@@ -1,0 +1,262 @@
+Cluster File,GO Term,GO ID,P-Value
+0,intracellular iron ion homeostasis,GO:0006879,0.049817667
+0,intracellular sequestering of iron ion,GO:0006880,0.049817667
+0,regulation of fibroblast proliferation,GO:0048145,0.049817667
+0,negative regulation of fibroblast proliferation,GO:0048147,0.049817667
+0,sequestering of metal ion,GO:0051238,0.049817667
+0,negative regulation of necrotic cell death,GO:0060547,0.049817667
+0,sequestering of iron ion,GO:0097577,0.049817667
+0,autolysosome,GO:0044754,0.04988825
+0,endocytic vesicle lumen,GO:0071682,0.04988825
+0,secondary lysosome,GO:0005767,0.04988825
+0,"oxidoreductase activity, acting on metal ions, oxygen as acceptor",GO:0016724,0.04988825
+0,ferric iron binding,GO:0008199,0.04988825
+0,ferrous iron binding,GO:0008198,0.04988825
+0,ferroxidase activity,GO:0004322,0.04988825
+0,Abnormal circulating ferritin concentration,HP:0040133,0.049935084
+0,Increased circulating ferritin concentration,HP:0003281,0.049935084
+0,Iron homeostasis,WP:WP1596,0.049920128
+1,Abnormal arterial physiology,HP:0025323,0.049960032
+1,Delayed ability to sit,HP:0025336,0.049960032
+1,Increased circulating androstenedione concentration,HP:0025380,0.049960032
+1,Elevated serum 11-deoxycortisol,HP:0025436,0.049960032
+1,Autoimmune antibody positivity,HP:0030057,0.049960032
+1,Abnormal vascular physiology,HP:0030163,0.049960032
+1,Portal vein thrombosis,HP:0030242,0.049960032
+1,Abnormality morphology of the macular vasculature,HP:0030495,0.049960032
+1,Abnormal circulating androgen level,HP:0030347,0.049960032
+1,Increased circulating androgen concentration,HP:0030348,0.049960032
+1,Pilomatrixoma,HP:0030434,0.049960032
+1,Exudative vitreoretinopathy,HP:0030490,0.049960032
+1,Abnormality of skin adnexa physiology,HP:0025276,0.049960032
+1,Macular exudate,HP:0030496,0.049960032
+1,Macular thickening,HP:0030498,0.049960032
+1,Splanchnic vein thrombosis,HP:0030247,0.049960032
+1,Panic attack,HP:0025269,0.049960032
+1,Enlarged pituitary gland,HP:0012505,0.049960032
+1,Increased serum estradiol,HP:0025134,0.049960032
+1,Abnormality of the posterior pituitary,HP:0011751,0.049960032
+1,Central hypothyroidism,HP:0011787,0.049960032
+1,Retinal perforation,HP:0011958,0.049960032
+1,Abnormal urine hormone level,HP:0012029,0.049960032
+1,Increased urinary cortisol level,HP:0012030,0.049960032
+1,Abnormality of circulating glucocorticoid level,HP:0012111,0.049960032
+1,Hepatitis,HP:0012115,0.049960032
+1,Abnormal temper tantrums,HP:0025160,0.049960032
+1,Rhegmatogenous retinal detachment,HP:0012230,0.049960032
+1,Neoplasm of head and neck,HP:0012288,0.049960032
+1,Hemianopia,HP:0012377,0.049960032
+1,Abnormal size of pituitary gland,HP:0012504,0.049960032
+1,Macular telangiectasia,HP:0030503,0.049960032
+1,Skin appendage neoplasm,HP:0012842,0.049960032
+1,Abnormal circulating estrogen level,HP:0025132,0.049960032
+1,Abnormal serum estradiol,HP:0025133,0.049960032
+1,Abnormal hypothalamus morphology,HP:0012286,0.049960032
+1,Heteronymous hemianopia,HP:0030517,0.049960032
+1,Perinuclear antineutrophil antibody positivity,HP:0032229,0.049960032
+1,Abnormal visual field test,HP:0030588,0.049960032
+1,Dysgerminoma,HP:0100621,0.049960032
+1,Neoplasm of the adrenal gland,HP:0100631,0.049960032
+1,Neoplasm of the adrenal cortex,HP:0100641,0.049960032
+1,Lack of skin elasticity,HP:0100679,0.049960032
+1,Self-injurious behavior,HP:0100716,0.049960032
+1,Germ cell neoplasia,HP:0100728,0.049960032
+1,Abnormal eating behavior,HP:0100738,0.049960032
+1,Chest pain,HP:0100749,0.049960032
+1,Sepsis,HP:0100806,0.049960032
+1,Vitreous floaters,HP:0100832,0.049960032
+1,Neoplasm of the large intestine,HP:0100834,0.049960032
+1,Malignant neoplasm of the central nervous system,HP:0100836,0.049960032
+1,Intestinal polyposis,HP:0200008,0.049960032
+1,Abnormal frontal bone morphology,HP:0430000,0.049960032
+1,Abnormal circulating dehydroepiandrosterone concentration,HP:0500022,0.049960032
+1,Germinoma,HP:0100620,0.049960032
+1,Ovarian neoplasm,HP:0100615,0.049960032
+1,Neoplasm of the endocrine system,HP:0100568,0.049960032
+1,Desmoid tumors,HP:0100245,0.049960032
+1,Retinal neovascularization,HP:0030666,0.049960032
+1,Abnormal endocrine morphology,HP:0031071,0.049960032
+1,Abnormal conus terminalis morphology,HP:0031938,0.049960032
+1,Female reproductive system neoplasm,HP:0033020,0.049960032
+1,Delayed ability to crawl,HP:0033128,0.049960032
+1,Tissue ischemia,HP:0033401,0.049960032
+1,Abnormal circulating sex hormone concentration,HP:0033799,0.049960032
+1,Bitemporal hemianopia,HP:0030521,0.049960032
+1,Neoplasm of the anterior pituitary,HP:0011750,0.049960032
+1,Hypopituitarism,HP:0040075,0.049960032
+1,Abnormal consumption behavior,HP:0040202,0.049960032
+1,Neoplasm of the pituitary gland,HP:0040277,0.049960032
+1,Neoplasm of the central nervous system,HP:0100006,0.049960032
+1,Epiretinal membrane,HP:0100014,0.049960032
+1,Leiomyosarcoma,HP:0100243,0.049960032
+1,Fibrosarcoma,HP:0100244,0.049960032
+1,Macular edema,HP:0040049,0.049960032
+1,Abnormal circulating androstenedione concentration,HP:0033811,0.049960032
+1,Hypogonadotropic hypogonadism,HP:0000044,0.049960032
+1,Abnormality of adrenal physiology,HP:0011733,0.049960032
+1,Vestibular dysfunction,HP:0001751,0.049960032
+1,Weight loss,HP:0001824,0.049960032
+1,Malabsorption,HP:0002024,0.049960032
+1,Tethered cord,HP:0002144,0.049960032
+1,Vertigo,HP:0002321,0.049960032
+1,Poor speech,HP:0002465,0.049960032
+1,Abnormal stomach morphology,HP:0002577,0.049960032
+1,Polyphagia,HP:0002591,0.049960032
+1,Hepatic necrosis,HP:0002605,0.049960032
+1,Broad finger,HP:0001500,0.049960032
+1,Cerebral ischemia,HP:0002637,0.049960032
+1,Adrenal overactivity,HP:0002717,0.049960032
+1,Bladder carcinoma,HP:0002862,0.049960032
+1,Medulloblastoma,HP:0002885,0.049960032
+1,Uterine leiomyosarcoma,HP:0002891,0.049960032
+1,Hypokalemia,HP:0002900,0.049960032
+1,Autoimmunity,HP:0002960,0.049960032
+1,Increased circulating cortisol level,HP:0003118,0.049960032
+1,Syringomyelia,HP:0003396,0.049960032
+1,Antineutrophil antibody positivity,HP:0003453,0.049960032
+1,Gastrointestinal carcinoma,HP:0002672,0.049960032
+1,Falciform retinal fold,HP:0001493,0.049960032
+1,Micronodular cirrhosis,HP:0001413,0.049960032
+1,Hepatic fibrosis,HP:0001395,0.049960032
+1,Hydronephrosis,HP:0000126,0.049960032
+1,Abnormality of the ovary,HP:0000137,0.049960032
+1,Underdeveloped nasal alae,HP:0000430,0.049960032
+1,Broad nasal tip,HP:0000455,0.049960032
+1,Hypermetropia,HP:0000540,0.049960032
+1,Blindness,HP:0000618,0.049960032
+1,Self-mutilation,HP:0000742,0.049960032
+1,Anterior hypopituitarism,HP:0000830,0.049960032
+1,Abnormality of the adrenal glands,HP:0000834,0.049960032
+1,Adrenal insufficiency,HP:0000846,0.049960032
+1,Hyperaldosteronism,HP:0000859,0.049960032
+1,Central diabetes insipidus,HP:0000863,0.049960032
+1,Increased circulating prolactin concentration,HP:0000870,0.049960032
+1,Diabetes insipidus,HP:0000873,0.049960032
+1,Hyperhidrosis,HP:0000975,0.049960032
+1,Striae distensae,HP:0001065,0.049960032
+1,Papilledema,HP:0001085,0.049960032
+1,Sudden loss of visual acuity,HP:0001117,0.049960032
+1,Severely reduced visual acuity,HP:0001141,0.049960032
+1,Coma,HP:0001259,0.049960032
+1,Excessive daytime somnolence,HP:0001262,0.049960032
+1,Paradoxical increased cortisol secretion on dexamethasone suppression test,HP:0003466,0.049960032
+1,Abnormal vitreous humor morphology,HP:0004327,0.049960032
+1,Dermal atrophy,HP:0004334,0.049960032
+1,Intestinal polyp,HP:0005266,0.049960032
+1,Renal neoplasm,HP:0009726,0.049960032
+1,Low hanging columella,HP:0009765,0.049960032
+1,Aplasia/Hypoplasia involving the nose,HP:0009924,0.049960032
+1,Abnormal columella morphology,HP:0009929,0.049960032
+1,Sleep apnea,HP:0010535,0.049960032
+1,Abnormal elasticity of skin,HP:0010647,0.049960032
+1,Abnormality of the diencephalon,HP:0010662,0.049960032
+1,Uterine neoplasm,HP:0010784,0.049960032
+1,Gonadal neoplasm,HP:0010785,0.049960032
+1,Urinary tract neoplasm,HP:0010786,0.049960032
+1,Genital neoplasm,HP:0010787,0.049960032
+1,Abnormal blood monovalent inorganic cation concentration,HP:0010930,0.049960032
+1,Abnormal nasal skeleton morphology,HP:0010937,0.049960032
+1,Abnormal nasal bone morphology,HP:0010939,0.049960032
+1,Abnormal renal pelvis morphology,HP:0010944,0.049960032
+1,Dilatation of the renal pelvis,HP:0010946,0.049960032
+1,Abnormal blood potassium concentration,HP:0011042,0.049960032
+1,Mild global developmental delay,HP:0011342,0.049960032
+1,Retinal hole,HP:0011530,0.049960032
+1,Abnormality of circulating cortisol level,HP:0011731,0.049960032
+1,Abnormality of adrenal morphology,HP:0011732,0.049960032
+1,Bladder neoplasm,HP:0009725,0.049960032
+1,Central adrenal insufficiency,HP:0011734,0.049960032
+1,Axial hypotonia,HP:0008936,0.049960032
+1,Aplasia/Hypoplasia of the skin,HP:0008065,0.049960032
+1,Renal cell carcinoma,HP:0005584,0.049960032
+1,Viral hepatitis,HP:0006562,0.049960032
+1,Subacute progressive viral hepatitis,HP:0006572,0.049960032
+1,Hereditary nonpolyposis colorectal carcinoma,HP:0006716,0.049960032
+1,Transitional cell carcinoma of the bladder,HP:0006740,0.049960032
+1,Adrenocortical carcinoma,HP:0006744,0.049960032
+1,Malignant gastrointestinal tract tumors,HP:0006749,0.049960032
+1,Neoplasm of the stomach,HP:0006753,0.049960032
+1,Ovarian papillary adenocarcinoma,HP:0006774,0.049960032
+1,Neoplasm of the genitourinary tract,HP:0007379,0.049960032
+1,Hypohidrosis or hyperhidrosis,HP:0007550,0.049960032
+1,Peripheral retinal avascularization,HP:0007685,0.049960032
+1,Retinal telangiectasia,HP:0007763,0.049960032
+1,Vitreoretinopathy,HP:0007773,0.049960032
+1,Vitreous hemorrhage,HP:0007902,0.049960032
+1,Tractional retinal detachment,HP:0007917,0.049960032
+1,Slow decrease in visual acuity,HP:0007924,0.049960032
+1,Progressive visual field defects,HP:0007987,0.049960032
+1,Abnormal retinal vascular morphology,HP:0008046,0.049960032
+1,Abnormality of the vasculature of the eye,HP:0008047,0.049960032
+1,Retinal fold,HP:0008052,0.049960032
+1,Pituitary hypothyroidism,HP:0008245,0.049960032
+1,Adrenocorticotropic hormone deficiency,HP:0011748,0.049960032
+1,mmu-miR-200a-3p,MIRNA:mmu-miR-200a-3p,0.049880287
+1,mmu-miR-203-5p,MIRNA:mmu-miR-203-5p,0.049880287
+1,mmu-miR-324-3p,MIRNA:mmu-miR-324-3p,0.049880287
+1,mmu-miR-434-3p,MIRNA:mmu-miR-434-3p,0.049880287
+1,mmu-miR-680,MIRNA:mmu-miR-680,0.049880287
+1,mmu-miR-690,MIRNA:mmu-miR-690,0.049880287
+1,Wnt signaling pathway and pluripotency,WP:WP723,0.04984051
+1,TGF-beta signaling pathway,WP:WP113,0.04984051
+1,IL-5 signaling pathway,WP:WP151,0.04984051
+1,MicroRNAs in cardiomyocyte hypertrophy,WP:WP1560,0.04984051
+1,Mechanisms associated with pluripotency,WP:WP1763,0.04984051
+1,Ptf1a related regulatory pathway,WP:WP201,0.04984051
+1,Heart development,WP:WP2067,0.04984051
+1,Neural crest differentiation,WP:WP2074,0.04984051
+1,Wnt signaling pathway,WP:WP539,0.04984051
+1,ESC pluripotency pathways,WP:WP339,0.04984051
+1,Wnt signaling in kidney disease,WP:WP3857,0.04984051
+1,Wnt signaling pathway,WP:WP403,0.04984051
+1,Adipogenesis genes,WP:WP447,0.04984051
+1,GDNF/RET signaling axis,WP:WP4820,0.04984051
+1,ID signaling pathway,WP:WP512,0.04984051
+1,Primary focal segmental glomerulosclerosis (FSGS),WP:WP2573,0.04984051
+3,organelle envelope,GO:0031967,0.019121481
+3,envelope,GO:0031975,0.019121481
+3,Myometrial relaxation and contraction pathways,WP:WP385,0.004165248
+5,mmu-miR-141-3p,MIRNA:mmu-miR-141-3p,0.049865364
+6,generation of precursor metabolites and energy,GO:0006091,0.001774291
+6,oxidative phosphorylation,GO:0006119,0.002405888
+6,mitochondrion organization,GO:0007005,0.002765359
+6,energy derivation by oxidation of organic compounds,GO:0015980,0.002765359
+6,cellular respiration,GO:0045333,0.006630848
+6,aerobic respiration,GO:0009060,0.010201005
+6,mitochondrial respiratory chain complex assembly,GO:0033108,0.023322127
+6,purine-containing compound biosynthetic process,GO:0072522,0.036405271
+6,purine nucleotide biosynthetic process,GO:0006164,0.036405271
+6,nucleoside phosphate biosynthetic process,GO:1901293,0.036405271
+6,nucleotide biosynthetic process,GO:0009165,0.036405271
+6,mitochondrion,GO:0005739,2.89E-07
+6,mitochondrial inner membrane,GO:0005743,2.97559E-06
+6,organelle inner membrane,GO:0019866,2.97559E-06
+6,envelope,GO:0031975,1.04072E-05
+6,organelle envelope,GO:0031967,1.04072E-05
+6,mitochondrial envelope,GO:0005740,1.14666E-05
+6,mitochondrial membrane,GO:0031966,2.85707E-05
+6,mitochondrial protein-containing complex,GO:0098798,0.000125738
+6,inner mitochondrial membrane protein complex,GO:0098800,0.000243569
+6,respirasome,GO:0070469,0.00038565
+6,respiratory chain complex,GO:0098803,0.000958039
+6,mitochondrial respirasome,GO:0005746,0.000958039
+6,oxidoreductase complex,GO:1990204,0.00570723
+6,mitochondrial respiratory chain complex I,GO:0005747,0.03250073
+6,respiratory chain complex I,GO:0045271,0.03250073
+6,NADH dehydrogenase complex,GO:0030964,0.03250073
+6,oxidoreductase activity,GO:0016491,0.032165248
+6,Respiratory electron transport,REAC:R-MMU-611105,0.00043159
+6,"Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.",REAC:R-MMU-163200,0.00043159
+6,The citric acid (TCA) cycle and respiratory electron transport,REAC:R-MMU-1428517,0.001000495
+6,Metabolism,REAC:R-MMU-1430728,0.001898053
+6,Complex I biogenesis,REAC:R-MMU-6799198,0.020185572
+6,Electron transport chain,WP:WP295,0.000817266
+6,Oxidative phosphorylation,WP:WP1248,0.014802398
+7,osteoblast differentiation,GO:0001649,0.005130274
+7,regulation of osteoblast differentiation,GO:0045667,0.020837464
+7,Golgi apparatus,GO:0005794,0.032181285
+7,Signal Transduction,REAC:R-MMU-162582,0.01790414
+7,Estrogen signaling,WP:WP1244,0.049961502
+7,Myometrial relaxation and contraction pathways,WP:WP385,0.049961502
+7,ID signaling pathway,WP:WP512,0.049961502
+8,mmu-miR-17-5p,MIRNA:mmu-miR-17-5p,0.049875312

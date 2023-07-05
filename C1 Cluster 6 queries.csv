@@ -1,0 +1,40 @@
+Cluster File,GO Term,GO ID,P-Value
+1,"G protein complex (Gngt2, Kcnj3, Gnb1)",CORUM:1609,0.0499975
+1,"G protein complex (Gngt2, Kcnj6, Gnb1)",CORUM:1610,0.0499975
+1,"G protein complex (Hdac4, Gnb1, Gng2)",CORUM:3192,0.0499975
+1,"G protein complex (Hdac5, Gnb1, Gng2)",CORUM:3193,0.0499975
+1,"G protein complex (Btk, Gng2, Gnb1)",CORUM:3195,0.0499975
+1,p65-IkappaBalpha-beta-arrestin-iNOS complex,CORUM:6279,0.0499975
+1,Visual phototransduction,REAC:R-MMU-2187338,0.020573187
+1,Sensory Perception,REAC:R-MMU-9709957,0.049993341
+1,Chemokine signaling pathway,WP:WP2292,0.049989467
+1,G protein signaling pathways,WP:WP232,0.049989467
+3,Smooth Muscle Contraction,REAC:R-MMU-445355,0.04995005
+4,Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),REAC:R-MMU-381426,0.049932757
+4,Post-translational protein phosphorylation,REAC:R-MMU-8957275,0.049932757
+5,Hemostasis,REAC:R-MMU-109582,0.049975012
+5,GABA receptor activation,REAC:R-MMU-977443,0.049975012
+5,Extra-nuclear estrogen signaling,REAC:R-MMU-9009391,0.049975012
+5,Signaling by Nuclear Receptors,REAC:R-MMU-9006931,0.049975012
+5,ESR-mediated signaling,REAC:R-MMU-8939211,0.049975012
+5,"Platelet activation, signaling and aggregation",REAC:R-MMU-76002,0.049975012
+5,G alpha (i) signalling events,REAC:R-MMU-418594,0.049975012
+5,"Adrenaline,noradrenaline inhibits insulin secretion",REAC:R-MMU-400042,0.049975012
+5,Signal amplification,REAC:R-MMU-392518,0.049975012
+5,ADP signalling through P2Y purinoceptor 12,REAC:R-MMU-392170,0.049975012
+5,GPCR downstream signalling,REAC:R-MMU-388396,0.049975012
+5,Signaling by GPCR,REAC:R-MMU-372790,0.049975012
+5,Adenylate cyclase inhibitory pathway,REAC:R-MMU-170670,0.049975012
+5,Neuronal System,REAC:R-MMU-112316,0.049975012
+5,Transmission across Chemical Synapses,REAC:R-MMU-112315,0.049975012
+5,Neurotransmitter receptors and postsynaptic signal transmission,REAC:R-MMU-112314,0.049975012
+5,G-protein mediated events,REAC:R-MMU-112040,0.049975012
+5,Opioid Signalling,REAC:R-MMU-111885,0.049975012
+5,GABA B receptor activation,REAC:R-MMU-977444,0.049975012
+5,Activation of GABAB receptors,REAC:R-MMU-991365,0.049975012
+7,system process,GO:0003008,0.006134489
+7,cellular response to chemical stimulus,GO:0070887,0.042142568
+7,G protein signaling pathways,WP:WP232,0.004383773
+7,Chemokine signaling pathway,WP:WP2292,0.049975012
+8,Inositol phosphate metabolism,REAC:R-MMU-1483249,0.049865364
+8,"Synthesis of IP2, IP, and Ins in the cytosol",REAC:R-MMU-1855183,0.049865364

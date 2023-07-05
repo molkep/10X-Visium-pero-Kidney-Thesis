@@ -1,0 +1,243 @@
+cluster file,GO Term,GO ID,P-Value
+0,Profilin 1 complex,CORUM:2836,0.049980008
+0,plasma membrane region,GO:0098590,0.019838234
+0,melanosome,GO:0042470,0.025407882
+0,pigment granule,GO:0048770,0.025407882
+0,Biological oxidations,REAC:R-MMU-211859,0.005862645
+2,Scrib-APC-beta-catenin complex,CORUM:935,0.04995005
+2,Axin1-Ctnnb1-Lrp5 complex,CORUM:6943,0.04995005
+2,"MCC complex (p85alpha, p110alpha, Akt,14-3-3theta, beta-catenin)",CORUM:6366,0.04995005
+2,Lef1-Tle1-Ctnnb1 complex,CORUM:5333,0.04995005
+2,Kif3-cadherin-catenin complex,CORUM:5271,0.04995005
+2,Xin-Cdh2-Ctnnb1-Ctnnd1 complex,CORUM:3867,0.04995005
+2,"PS1-E-cadherin-catenin complex, brain",CORUM:1157,0.04995005
+2,Elevated serum 11-deoxycortisol,HP:0025436,0.04995005
+2,Lung adenocarcinoma,HP:0030078,0.04995005
+2,Portal vein thrombosis,HP:0030242,0.04995005
+2,Splanchnic vein thrombosis,HP:0030247,0.04995005
+2,Pilomatrixoma,HP:0030434,0.04995005
+2,Increased circulating androstenedione concentration,HP:0025380,0.04995005
+2,Soft tissue sarcoma,HP:0030448,0.04995005
+2,Exudative vitreoretinopathy,HP:0030490,0.04995005
+2,Abnormality morphology of the macular vasculature,HP:0030495,0.04995005
+2,Non-small cell lung carcinoma,HP:0030358,0.04995005
+2,Delayed ability to sit,HP:0025336,0.04995005
+2,Increased serum estradiol,HP:0025134,0.04995005
+2,Abnormal temper tantrums,HP:0025160,0.04995005
+2,Skin appendage neoplasm,HP:0012842,0.04995005
+2,Abnormality of intracranial pressure,HP:0012640,0.04995005
+2,Enlarged pituitary gland,HP:0012505,0.04995005
+2,Abnormal size of pituitary gland,HP:0012504,0.04995005
+2,Hemianopia,HP:0012377,0.04995005
+2,Fibrous tissue neoplasm,HP:0012316,0.04995005
+2,Neoplasm of head and neck,HP:0012288,0.04995005
+2,Abnormal hypothalamus morphology,HP:0012286,0.04995005
+2,Rhegmatogenous retinal detachment,HP:0012230,0.04995005
+2,Panic attack,HP:0025269,0.04995005
+2,Macular exudate,HP:0030496,0.04995005
+2,Heteronymous hemianopia,HP:0030517,0.04995005
+2,Macular telangiectasia,HP:0030503,0.04995005
+2,Abnormal circulating dehydroepiandrosterone concentration,HP:0500022,0.04995005
+2,Epigastric pain,HP:0410019,0.04995005
+2,Neoplasm of the large intestine,HP:0100834,0.04995005
+2,Vitreous floaters,HP:0100832,0.04995005
+2,Sepsis,HP:0100806,0.04995005
+2,Neoplasm of the respiratory system,HP:0100606,0.04995005
+2,Spinal cord lesion,HP:0100561,0.04995005
+2,Neoplasm of the lung,HP:0100526,0.04995005
+2,Desmoid tumors,HP:0100245,0.04995005
+2,Fibrosarcoma,HP:0100244,0.04995005
+2,Leiomyosarcoma,HP:0100243,0.04995005
+2,Epiretinal membrane,HP:0100014,0.04995005
+2,Macular edema,HP:0040049,0.04995005
+2,Abnormal circulating androstenedione concentration,HP:0033811,0.04995005
+2,Delayed ability to crawl,HP:0033128,0.04995005
+2,Female reproductive system neoplasm,HP:0033020,0.04995005
+2,Perinuclear antineutrophil antibody positivity,HP:0032229,0.04995005
+2,Abnormal conus terminalis morphology,HP:0031938,0.04995005
+2,Subretinal fluid,HP:0031526,0.04995005
+2,Retinal perforation,HP:0011958,0.04995005
+2,Retinal neovascularization,HP:0030666,0.04995005
+2,Abnormal visual field test,HP:0030588,0.04995005
+2,Bitemporal hemianopia,HP:0030521,0.04995005
+2,Macular thickening,HP:0030498,0.04995005
+2,Abnormal uterus morphology,HP:0031105,0.04995005
+2,Hemorrhage of the eye,HP:0011885,0.04995005
+2,Abnormality of the posterior pituitary,HP:0011751,0.04995005
+2,Central hypothyroidism,HP:0011787,0.04995005
+2,Syringomyelia,HP:0003396,0.04995005
+2,Uterine leiomyosarcoma,HP:0002891,0.04995005
+2,Medulloblastoma,HP:0002885,0.04995005
+2,Bladder carcinoma,HP:0002862,0.04995005
+2,Gastrointestinal carcinoma,HP:0002672,0.04995005
+2,Abnormal stomach morphology,HP:0002577,0.04995005
+2,Increased intracranial pressure,HP:0002516,0.04995005
+2,Gastrointestinal hemorrhage,HP:0002239,0.04995005
+2,Progressive spasticity,HP:0002191,0.04995005
+2,Tethered cord,HP:0002144,0.04995005
+2,Malabsorption,HP:0002024,0.04995005
+2,Falciform retinal fold,HP:0001493,0.04995005
+2,Micronodular cirrhosis,HP:0001413,0.04995005
+2,Hepatic fibrosis,HP:0001395,0.04995005
+2,Severely reduced visual acuity,HP:0001141,0.04995005
+2,Sudden loss of visual acuity,HP:0001117,0.04995005
+2,Papilledema,HP:0001085,0.04995005
+2,Telangiectasia,HP:0001009,0.04995005
+2,Lymphedema,HP:0001004,0.04995005
+2,Pruritus,HP:0000989,0.04995005
+2,Central diabetes insipidus,HP:0000863,0.04995005
+2,Self-mutilation,HP:0000742,0.04995005
+2,Retinal detachment,HP:0000541,0.04995005
+2,Broad nasal tip,HP:0000455,0.04995005
+2,Intestinal obstruction,HP:0005214,0.04995005
+2,Viral hepatitis,HP:0006562,0.04995005
+2,Gastrointestinal obstruction,HP:0004796,0.04995005
+2,Hereditary nonpolyposis colorectal carcinoma,HP:0006716,0.04995005
+2,Adrenocorticotropic hormone deficiency,HP:0011748,0.04995005
+2,Central adrenal insufficiency,HP:0011734,0.04995005
+2,Retinal hole,HP:0011530,0.04995005
+2,Primary microcephaly,HP:0011451,0.04995005
+2,Mild global developmental delay,HP:0011342,0.04995005
+2,Abnormal nasal bone morphology,HP:0010939,0.04995005
+2,Abnormal nasal skeleton morphology,HP:0010937,0.04995005
+2,Uterine neoplasm,HP:0010784,0.04995005
+2,Fibroma,HP:0010614,0.04995005
+2,Subacute progressive viral hepatitis,HP:0006572,0.04995005
+2,Low hanging columella,HP:0009765,0.04995005
+2,Bladder neoplasm,HP:0009725,0.04995005
+2,Pituitary hypothyroidism,HP:0008245,0.04995005
+2,Abnormal columella morphology,HP:0009929,0.04995005
+2,Progressive visual field defects,HP:0007987,0.04995005
+2,Transitional cell carcinoma of the bladder,HP:0006740,0.04995005
+2,Adrenocortical carcinoma,HP:0006744,0.04995005
+2,Retinal fold,HP:0008052,0.04995005
+2,Neoplasm of the stomach,HP:0006753,0.04995005
+2,Ovarian papillary adenocarcinoma,HP:0006774,0.04995005
+2,Malignant gastrointestinal tract tumors,HP:0006749,0.04995005
+2,Retinal telangiectasia,HP:0007763,0.04995005
+2,Vitreoretinopathy,HP:0007773,0.04995005
+2,Vitreous hemorrhage,HP:0007902,0.04995005
+2,Tractional retinal detachment,HP:0007917,0.04995005
+2,Slow decrease in visual acuity,HP:0007924,0.04995005
+2,Peripheral retinal avascularization,HP:0007685,0.04995005
+2,mmu-miR-185-5p,MIRNA:mmu-miR-185-5p,0.049603175
+2,mmu-miR-200a-3p,MIRNA:mmu-miR-200a-3p,0.049603175
+2,mmu-miR-203-5p,MIRNA:mmu-miR-203-5p,0.049603175
+2,mmu-miR-690,MIRNA:mmu-miR-690,0.049603175
+2,Wnt signaling pathway and pluripotency,WP:WP723,0.04969191
+2,MicroRNAs in cardiomyocyte hypertrophy,WP:WP1560,0.04969191
+2,Wnt signaling pathway,WP:WP539,0.04969191
+2,Heart development,WP:WP2067,0.04969191
+2,ESC pluripotency pathways,WP:WP339,0.04969191
+2,Wnt signaling in kidney disease,WP:WP3857,0.04969191
+2,Wnt signaling pathway,WP:WP403,0.04969191
+2,GDNF/RET signaling axis,WP:WP4820,0.04969191
+2,Ptf1a related regulatory pathway,WP:WP201,0.04969191
+8,glycine metabolic process,GO:0006544,0.049682035
+8,threonine metabolic process,GO:0006566,0.049682035
+8,aspartate family amino acid metabolic process,GO:0009066,0.049682035
+8,serine family amino acid metabolic process,GO:0009069,0.049682035
+8,serine family amino acid biosynthetic process,GO:0009070,0.049682035
+8,gamma-aminobutyric acid metabolic process,GO:0009448,0.049682035
+8,taurine metabolic process,GO:0019530,0.049682035
+8,alkanesulfonate metabolic process,GO:0019694,0.049682035
+8,NAD binding,GO:0051287,0.049682035
+8,Radial deviation of the hand or of fingers of the hand,HP:0009485,0.049915144
+8,Limb undergrowth,HP:0009826,0.049915144
+8,Spinal dysraphism,HP:0010301,0.049915144
+8,Abnormality of the female genitalia,HP:0010460,0.049915144
+8,Abnormal circulating serine family amino acid concentration,HP:0010894,0.049915144
+8,Atonic seizure,HP:0010819,0.049915144
+8,Abnormality of the umbilical cord,HP:0010881,0.049915144
+8,Joint contracture of the hand,HP:0009473,0.049915144
+8,Aplasia/Hypoplasia of the testes,HP:0010468,0.049915144
+8,Radial deviation of finger,HP:0009466,0.049915144
+8,Abnormality of the calcaneus,HP:0008364,0.049915144
+8,Decreased testicular size,HP:0008734,0.049915144
+8,Renal hypoplasia/aplasia,HP:0008678,0.049915144
+8,Abnormal talus morphology,HP:0008365,0.049915144
+8,Abnormal circulating glycine concentration,HP:0010895,0.049915144
+8,Deformed tarsal bones,HP:0008119,0.049915144
+8,Generalized ichthyosis,HP:0007503,0.049915144
+8,Generalized edema,HP:0007430,0.049915144
+8,Abnormal choroid plexus morphology,HP:0007376,0.049915144
+8,Developmental stagnation,HP:0007281,0.049915144
+8,Cerebral dysmyelination,HP:0007266,0.049915144
+8,Abnormal adipose tissue morphology,HP:0009124,0.049915144
+8,Anemia of inadequate production,HP:0010972,0.049915144
+8,Primary microcephaly,HP:0011451,0.049915144
+8,EEG with generalized epileptiform discharges,HP:0011198,0.049915144
+8,Cleft lip,HP:0410030,0.049915144
+8,Sparse or absent eyelashes,HP:0200102,0.049915144
+8,Long fingers,HP:0100807,0.049915144
+8,Abnormal placenta morphology,HP:0100767,0.049915144
+8,Esophagitis,HP:0100633,0.049915144
+8,Upper-limb joint contracture,HP:0100360,0.049915144
+8,Abnormality of the testis size,HP:0045058,0.049915144
+8,Neural tube defect,HP:0045005,0.049915144
+8,Open neural tube defect,HP:0034237,0.049915144
+8,Non-motor seizure,HP:0033259,0.049915144
+8,Focal non-motor seizure,HP:0032679,0.049915144
+8,Heterotropia,HP:0032012,0.049915144
+8,Swollen lip,HP:0031244,0.049915144
+8,Abnormal uterus morphology,HP:0031105,0.049915144
+8,Inappropriate crying,HP:0030215,0.049915144
+8,Interictal EEG abnormality,HP:0025373,0.049915144
+8,Esodeviation,HP:0020045,0.049915144
+8,Abnormal placental size,HP:0012767,0.049915144
+8,Delayed myelination,HP:0012448,0.049915144
+8,Cerebral hypoplasia,HP:0006872,0.049915144
+8,Aplasia/Hypoplasia of the eyelid,HP:0011226,0.049915144
+8,Interictal epileptiform activity,HP:0011182,0.049915144
+8,Cerebral hypomyelination,HP:0006808,0.049915144
+8,Stillbirth,HP:0003826,0.049915144
+8,Small placenta,HP:0006266,0.049915144
+8,Transposition of the great arteries,HP:0001669,0.049915144
+8,Abnormal umbilicus morphology,HP:0001551,0.049915144
+8,Umbilical hernia,HP:0001537,0.049915144
+8,Lissencephaly,HP:0001339,0.049915144
+8,Short umbilical cord,HP:0001196,0.049915144
+8,Abnormalities of placenta or umbilical cord,HP:0001194,0.049915144
+8,Pterygium,HP:0001059,0.049915144
+8,Abnormality of subcutaneous fat tissue,HP:0001001,0.049915144
+8,Abnormal internal genitalia,HP:0000812,0.049915144
+8,Inappropriate behavior,HP:0000719,0.049915144
+8,Esotropia,HP:0000565,0.049915144
+8,Absent eyelashes,HP:0000561,0.049915144
+8,Broad neck,HP:0000475,0.049915144
+8,Depressed nasal ridge,HP:0000457,0.049915144
+8,Macrotia,HP:0000400,0.049915144
+8,Sloping forehead,HP:0000340,0.049915144
+8,Cleft upper lip,HP:0000204,0.049915144
+8,Abnormality of the uterus,HP:0000130,0.049915144
+8,Renal agenesis,HP:0000104,0.049915144
+8,Hypoplastic male external genitalia,HP:0000050,0.049915144
+8,Abnormal morphology of female internal genitalia,HP:0000008,0.049915144
+8,Rocker bottom foot,HP:0001838,0.049915144
+8,Calcaneovalgus deformity,HP:0001848,0.049915144
+8,Abnormality of the tarsal bones,HP:0001850,0.049915144
+8,Thrombocytopenia,HP:0001873,0.049915144
+8,Finger syndactyly,HP:0006101,0.049915144
+8,Gastrointestinal inflammation,HP:0004386,0.049915144
+8,Abnormal neural tube morphology,HP:0410043,0.049915144
+8,Neonatal death,HP:0003811,0.049915144
+8,CNS hypomyelination,HP:0003429,0.049915144
+8,External genital hypoplasia,HP:0003241,0.049915144
+8,Limb joint contracture,HP:0003121,0.049915144
+8,Micromelia,HP:0002983,0.049915144
+8,Absent facial hair,HP:0002550,0.049915144
+8,Hypsarrhythmia,HP:0002521,0.049915144
+8,Aplasia/Hypoplasia of the lungs,HP:0006703,0.049915144
+8,Spina bifida,HP:0002414,0.049915144
+8,Athetosis,HP:0002305,0.049915144
+8,Absent hair,HP:0002298,0.049915144
+8,Choroid plexus cyst,HP:0002190,0.049915144
+8,Generalized non-motor (absence) seizure,HP:0002121,0.049915144
+8,Pulmonary hypoplasia,HP:0002089,0.049915144
+8,Hypoplasia of the corpus callosum,HP:0002079,0.049915144
+8,Abnormal esophagus morphology,HP:0002031,0.049915144
+8,Fetal akinesia sequence,HP:0001989,0.049915144
+8,Macrocytic anemia,HP:0001972,0.049915144
+8,Megaloblastic anemia,HP:0001889,0.049915144
+8,Anencephaly,HP:0002323,0.049915144
+8,Abnormal lung development,HP:4000059,0.049915144

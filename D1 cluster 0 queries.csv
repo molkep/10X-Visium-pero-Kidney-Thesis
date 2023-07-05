@@ -1,0 +1,25 @@
+Clustr File,GO Term,GO ID,P-Value
+1,L-phenylalanine metabolic process,GO:0006558,0.04997731
+1,L-phenylalanine catabolic process,GO:0006559,0.04997731
+1,tyrosine catabolic process,GO:0006572,0.04997731
+1,amino acid catabolic process,GO:0009063,0.04997731
+1,aromatic amino acid family catabolic process,GO:0009074,0.04997731
+1,alpha-amino acid catabolic process,GO:1901606,0.04997731
+1,erythrose 4-phosphate/phosphoenolpyruvate family amino acid metabolic process,GO:1902221,0.04997731
+1,erythrose 4-phosphate/phosphoenolpyruvate family amino acid catabolic process,GO:1902222,0.04997731
+1,Phenylalanine and tyrosine metabolism,REAC:R-MMU-8963691,0.016883906
+3,inorganic ion homeostasis,GO:0098771,0.014013081
+3,sodium ion transmembrane transport,GO:0035725,0.049928753
+3,apical part of cell,GO:0045177,0.000161713
+3,apical plasma membrane,GO:0016324,0.000567426
+3,plasma membrane region,GO:0098590,0.00459308
+3,cell projection membrane,GO:0031253,0.031878294
+3,plasma membrane bounded cell projection,GO:0120025,0.044638125
+3,brush border,GO:0005903,0.046188883
+3,cluster of actin-based cell projections,GO:0098862,0.046188883
+3,Retinol metabolism,WP:WP1259,0.04986351
+4,cell projection membrane,GO:0031253,0.049986158
+4,mmu-miR-709,MIRNA:mmu-miR-709,0.049906841
+5,cellular aromatic compound metabolic process,GO:0006725,0.019683538
+5,mmu-miR-3082-5p,MIRNA:mmu-miR-3082-5p,0.049880287
+6,apical plasma membrane,GO:0016324,0.023401755

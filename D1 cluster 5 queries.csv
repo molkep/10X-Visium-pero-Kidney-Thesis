@@ -1,0 +1,10 @@
+Cluster File,GO Term,GO ID,P-Value
+0,cellular aromatic compound metabolic process,GO:0006725,0.018889454
+3,monocarboxylic acid metabolic process,GO:0032787,0.042186299
+3,Metabolism,REAC:R-MMU-1430728,0.001482959
+3,Metabolism of steroids,REAC:R-MMU-8957322,0.041532686
+7,Lethargy,HP:0001254,0.049960032
+7,Metabolic acidosis,HP:0001942,0.049960032
+7,Lactic acidosis,HP:0003128,0.049960032
+7,Aminoaciduria,HP:0003355,0.049960032
+7,Abnormal urine metabolite level,HP:0033354,0.049960032

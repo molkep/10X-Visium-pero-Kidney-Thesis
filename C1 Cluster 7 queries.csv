@@ -1,0 +1,119 @@
+Cluster File,GO Term,GO ID,P-Value
+0,Nuclear Events (kinase and transcription factor activation),REAC:R-MMU-198725,0.049958035
+0,Stimuli-sensing channels,REAC:R-MMU-2672351,0.049958035
+0,Regulation of TP53 Activity,REAC:R-MMU-5633007,0.049958035
+0,Regulation of TP53 Degradation,REAC:R-MMU-6804757,0.049958035
+0,Regulation of TP53 Expression and Degradation,REAC:R-MMU-6806003,0.049958035
+0,NGF-stimulated transcription,REAC:R-MMU-9031628,0.049958035
+0,Mechanisms associated with pluripotency,WP:WP1763,0.049954042
+0,IL-6 signaling pathway,WP:WP387,0.049954042
+0,Insulin signaling,WP:WP65,0.049954042
+1,Parvulin-associated pre-rRNP complex,CORUM:3047,0.000599834
+1,cytoplasmic translation,GO:0002181,0.016501045
+1,cytosolic ribosome,GO:0022626,2.95435E-05
+1,ribosome,GO:0005840,0.003785703
+1,cytosolic large ribosomal subunit,GO:0022625,0.006374808
+1,ribosomal subunit,GO:0044391,0.012310451
+1,cell junction,GO:0030054,0.039987284
+1,structural molecule activity,GO:0005198,1.04238E-06
+1,structural constituent of ribosome,GO:0003735,0.000372456
+1,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),REAC:R-MMU-975956,1.00761E-05
+1,Nonsense-Mediated Decay (NMD),REAC:R-MMU-927802,1.00761E-05
+1,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),REAC:R-MMU-975957,1.00761E-05
+1,SRP-dependent cotranslational protein targeting to membrane,REAC:R-MMU-1799339,1.00761E-05
+1,rRNA processing in the nucleus and cytosol,REAC:R-MMU-8868773,2.36821E-05
+1,rRNA processing,REAC:R-MMU-72312,2.36821E-05
+1,Major pathway of rRNA processing in the nucleolus and cytosol,REAC:R-MMU-6791226,2.36821E-05
+1,L13a-mediated translational silencing of Ceruloplasmin expression,REAC:R-MMU-156827,0.000491587
+1,Formation of a pool of free 40S subunits,REAC:R-MMU-72689,0.000491587
+1,GTP hydrolysis and joining of the 60S ribosomal subunit,REAC:R-MMU-72706,0.000491587
+1,Eukaryotic Translation Initiation,REAC:R-MMU-72613,0.001812059
+1,Cap-dependent Translation Initiation,REAC:R-MMU-72737,0.001812059
+1,Translation,REAC:R-MMU-72766,0.016461338
+1,Metabolism of RNA,REAC:R-MMU-8953854,0.031808658
+1,Cytoplasmic ribosomal proteins,WP:WP163,1.36501E-05
+2,lens development in camera-type eye,GO:0002088,0.04969191
+2,amyloid fibril formation,GO:1990000,0.04969191
+2,negative regulation of amyloid fibril formation,GO:1905907,0.04969191
+2,regulation of amyloid fibril formation,GO:1905906,0.04969191
+2,apoptotic process involved in development,GO:1902742,0.04969191
+2,cellular response to gamma radiation,GO:0071480,0.04969191
+2,cellular response to ionizing radiation,GO:0071479,0.04969191
+2,cellular response to radiation,GO:0071478,0.04969191
+2,apoptotic process involved in morphogenesis,GO:0060561,0.04969191
+2,negative regulation of intracellular transport,GO:0032387,0.04969191
+2,microtubule polymerization or depolymerization,GO:0031109,0.04969191
+2,response to gamma radiation,GO:0010332,0.04969191
+2,multicellular organism aging,GO:0010259,0.04969191
+2,response to ionizing radiation,GO:0010212,0.04969191
+2,tubulin complex assembly,GO:0007021,0.04969191
+2,I band,GO:0031674,0.04995005
+2,actin filament bundle,GO:0032432,0.04995005
+2,Z disc,GO:0030018,0.04995005
+2,cardiac myofibril,GO:0097512,0.04995005
+2,microtubule binding,GO:0008017,0.04969191
+2,structural constituent of eye lens,GO:0005212,0.04969191
+2,amyloid-beta binding,GO:0001540,0.04969191
+2,Polar cataract,HP:0010696,0.049975012
+2,Ventricular tachycardia,HP:0004756,0.049975012
+2,Abnormal left ventricular function,HP:0005162,0.049975012
+2,Ocular anterior segment dysgenesis,HP:0007700,0.049975012
+2,Foot dorsiflexor weakness,HP:0009027,0.049975012
+2,Progressive distal muscle weakness,HP:0009063,0.049975012
+2,Decreased Achilles reflex,HP:0009072,0.049975012
+2,Progressive proximal muscle weakness,HP:0009073,0.049975012
+2,Abnormal adipose tissue morphology,HP:0009124,0.049975012
+2,Lipodystrophy,HP:0009125,0.049975012
+2,Abnormal myeloid leukocyte morphology,HP:0010974,0.049975012
+2,Abnormal left ventricular ejection fraction,HP:0034314,0.049975012
+2,Reduced left ventricular ejection fraction,HP:0012664,0.049975012
+2,Left ventricular systolic dysfunction,HP:0025169,0.049975012
+2,Abnormal cry,HP:0025429,0.049975012
+2,Abnormal muscle fiber protein expression,HP:0030089,0.049975012
+2,Abnormal cardiac ventricular function,HP:0030872,0.049975012
+2,Abnormal mitral valve physiology,HP:0031481,0.049975012
+2,Abnormal atrioventricular valve physiology,HP:0031650,0.049975012
+2,Abnormal left ventricular end-diastolic volume,HP:0033754,0.049975012
+2,Increased left ventricular end-diastolic volume,HP:0033755,0.049975012
+2,Weakness of muscles of respiration,HP:0004347,0.049975012
+2,Atrioventricular valve regurgitation,HP:0034376,0.049975012
+2,Abnormality of skeletal muscle fiber size,HP:0012084,0.049975012
+2,Functional motor deficit,HP:0004302,0.049975012
+2,Limb-girdle muscle weakness,HP:0003325,0.049975012
+2,Late-onset proximal muscle weakness,HP:0003694,0.049975012
+2,Developmental cataract,HP:0000519,0.049975012
+2,Facial diplegia,HP:0001349,0.049975012
+2,Weak cry,HP:0001612,0.049975012
+2,Dysphonia,HP:0001618,0.049975012
+2,Dilated cardiomyopathy,HP:0001644,0.049975012
+2,Mitral regurgitation,HP:0001653,0.049975012
+2,Abnormality of neutrophils,HP:0001874,0.049975012
+2,Abnormal granulocyte morphology,HP:0001911,0.049975012
+2,Difficulty walking,HP:0002355,0.049975012
+2,Distal muscle weakness,HP:0002460,0.049975012
+2,Hyporeflexia of lower limbs,HP:0002600,0.049975012
+2,Respiratory insufficiency due to muscle weakness,HP:0002747,0.049975012
+2,Myopathy,HP:0003198,0.049975012
+2,Progressive muscle weakness,HP:0003323,0.049975012
+2,Muscle fiber inclusion bodies,HP:0100299,0.049975012
+2,Axial muscle weakness,HP:0003327,0.049975012
+2,EMG abnormality,HP:0003457,0.049975012
+2,EMG: myopathic abnormalities,HP:0003458,0.049975012
+2,Muscle stiffness,HP:0003552,0.049975012
+2,Muscle fiber splitting,HP:0003555,0.049975012
+2,Increased variability in muscle fiber diameter,HP:0003557,0.049975012
+2,Slowly progressive,HP:0003677,0.049975012
+2,Rapidly progressive,HP:0003678,0.049975012
+2,Autophagic vacuoles,HP:0003736,0.049975012
+2,Lipoatrophy,HP:0100578,0.049975012
+5,synapse,GO:0045202,0.0181815
+5,non-membrane-bounded organelle,GO:0043228,0.027034195
+5,intracellular non-membrane-bounded organelle,GO:0043232,0.027034195
+5,Metabolism of proteins,REAC:R-MMU-392499,0.032118172
+5,Translation,REAC:R-MMU-72766,0.049955872
+8,mmu-miR-93-5p,MIRNA:mmu-miR-93-5p,0.049875312
+8,Neddylation,REAC:R-MMU-8951664,0.049865364
+8,Cellular response to chemical stress,REAC:R-MMU-9711123,0.049865364
+8,KEAP1-NFE2L2 pathway,REAC:R-MMU-9755511,0.049865364
+8,Nuclear events mediated by NFE2L2,REAC:R-MMU-9759194,0.049865364
+8,GSK3B and BTRC:CUL1-mediated-degradation of NFE2L2,REAC:R-MMU-9762114,0.049865364

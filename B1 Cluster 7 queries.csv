@@ -1,0 +1,247 @@
+Cluster File,GO Term,GO ID,P-Value
+0,PYR complex,CORUM:572,0.049980008
+0,Nkx3.2-SMAD1-SMAD4-HDAC-Sin3A complex,CORUM:2984,0.049980008
+0,Gata1-Fog1-MeCP1 complex,CORUM:2750,0.049980008
+0,nucleoplasm,GO:0005654,0.008463799
+0,nuclear lumen,GO:0031981,0.023353879
+0,Oliguria,HP:0100520,0.049935084
+0,Urolithiasis,HP:0034368,0.049935084
+0,Flank pain,HP:0030157,0.049935084
+0,Macroscopic hematuria,HP:0012587,0.049935084
+0,Acute kidney injury,HP:0001919,0.049935084
+0,Uric acid nephrolithiasis,HP:0000791,0.049935084
+0,Urinary hesitancy,HP:0000019,0.049935084
+0,Urinary retention,HP:0000016,0.049935084
+0,Crystalluria,HP:0020074,0.049935084
+0,Chromatin organization,REAC:R-MMU-4839726,0.008405181
+0,Chromatin modifying enzymes,REAC:R-MMU-3247509,0.008405181
+0,RMTs methylate histone arginines,REAC:R-MMU-3214858,0.008405181
+0,Regulation of TP53 Activity,REAC:R-MMU-5633007,0.025101574
+0,Mechanisms associated with pluripotency,WP:WP1763,0.020340175
+2,osteoblast differentiation,GO:0001649,0.024368089
+2,nucleic acid metabolic process,GO:0090304,0.037934472
+2,ossification,GO:0001503,0.043129644
+2,mmu-miR-206-3p,MIRNA:mmu-miR-206-3p,0.049966689
+2,Signal Transduction,REAC:R-MMU-162582,0.014097925
+2,G protein signaling pathways,WP:WP232,0.04995005
+3,Parvulin-associated pre-rRNP complex,CORUM:3047,0.020404053
+3,cytoplasmic translation,GO:0002181,2.00E-07
+3,translation,GO:0006412,3.39604E-06
+3,peptide biosynthetic process,GO:0043043,7.42136E-06
+3,organonitrogen compound biosynthetic process,GO:1901566,1.49188E-05
+3,amide biosynthetic process,GO:0043604,3.26038E-05
+3,peptide metabolic process,GO:0006518,3.26038E-05
+3,amide metabolic process,GO:0043603,0.000247811
+3,organonitrogen compound metabolic process,GO:1901564,0.001587644
+3,protein metabolic process,GO:0019538,0.00275166
+3,translation at postsynapse,GO:0140242,0.007336395
+3,translation at synapse,GO:0140241,0.007336395
+3,translation at presynapse,GO:0140236,0.007336395
+3,ribosome,GO:0005840,1.66E-09
+3,cytosolic ribosome,GO:0022626,5.98E-09
+3,ribosomal subunit,GO:0044391,2.27E-08
+3,postsynapse,GO:0098794,7.16E-07
+3,cell junction,GO:0030054,1.3929E-06
+3,synapse,GO:0045202,1.55732E-06
+3,ribonucleoprotein complex,GO:1990904,1.40738E-05
+3,intracellular non-membrane-bounded organelle,GO:0043232,0.000278144
+3,non-membrane-bounded organelle,GO:0043228,0.000278144
+3,cytosol,GO:0005829,0.000471076
+3,cytosolic large ribosomal subunit,GO:0022625,0.000545415
+3,large ribosomal subunit,GO:0015934,0.001340665
+3,cytosolic small ribosomal subunit,GO:0022627,0.001706263
+3,small ribosomal subunit,GO:0015935,0.002618214
+3,presynapse,GO:0098793,0.004959505
+3,polysomal ribosome,GO:0042788,0.009440929
+3,cytoplasm,GO:0005737,0.010229185
+3,polysome,GO:0005844,0.020644398
+3,endoplasmic reticulum,GO:0005783,0.044121639
+3,structural molecule activity,GO:0005198,7.91E-11
+3,structural constituent of ribosome,GO:0003735,2.68E-09
+3,rRNA processing,REAC:R-MMU-72312,2.11E-08
+3,Major pathway of rRNA processing in the nucleolus and cytosol,REAC:R-MMU-6791226,2.11E-08
+3,rRNA processing in the nucleus and cytosol,REAC:R-MMU-8868773,2.11E-08
+3,SRP-dependent cotranslational protein targeting to membrane,REAC:R-MMU-1799339,2.11E-08
+3,Formation of a pool of free 40S subunits,REAC:R-MMU-72689,2.96E-08
+3,GTP hydrolysis and joining of the 60S ribosomal subunit,REAC:R-MMU-72706,2.96E-08
+3,Cap-dependent Translation Initiation,REAC:R-MMU-72737,2.96E-08
+3,Eukaryotic Translation Initiation,REAC:R-MMU-72613,2.96E-08
+3,L13a-mediated translational silencing of Ceruloplasmin expression,REAC:R-MMU-156827,2.96E-08
+3,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),REAC:R-MMU-975956,7.36E-08
+3,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),REAC:R-MMU-975957,7.36E-08
+3,Nonsense-Mediated Decay (NMD),REAC:R-MMU-927802,7.36E-08
+3,Translation,REAC:R-MMU-72766,8.97E-07
+3,Metabolism of RNA,REAC:R-MMU-8953854,0.000193727
+3,"Formation of the ternary complex, and subsequently, the 43S complex",REAC:R-MMU-72695,0.000919423
+3,Ribosomal scanning and start codon recognition,REAC:R-MMU-72702,0.000919423
+3,"Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",REAC:R-MMU-72662,0.000919423
+3,Translation initiation complex formation,REAC:R-MMU-72649,0.000919423
+3,Metabolism of proteins,REAC:R-MMU-392499,0.003129846
+3,Cytoplasmic ribosomal proteins,WP:WP163,6.31E-07
+4,regulation of sodium ion transport,GO:0002028,0.049603175
+4,steroid hormone mediated signaling pathway,GO:0043401,0.049603175
+4,glucocorticoid mediated signaling pathway,GO:0043402,0.049603175
+4,positive regulation of cell differentiation,GO:0045597,0.049603175
+4,microtubule polymerization,GO:0046785,0.049603175
+4,dendrite morphogenesis,GO:0048813,0.049603175
+4,regulation of dendrite morphogenesis,GO:0048814,0.049603175
+4,cell projection morphogenesis,GO:0048858,0.049603175
+4,regulation of neurogenesis,GO:0050767,0.049603175
+4,positive regulation of neurogenesis,GO:0050769,0.049603175
+4,regulation of dendrite development,GO:0050773,0.049603175
+4,positive regulation of dendrite morphogenesis,GO:0050775,0.049603175
+4,cognition,GO:0050890,0.049603175
+4,protein polymerization,GO:0051258,0.049603175
+4,regulation of nervous system development,GO:0051960,0.049603175
+4,positive regulation of nervous system development,GO:0051962,0.049603175
+4,cellular response to mineralocorticoid stimulus,GO:0071389,0.049603175
+4,cellular response to alcohol,GO:0097306,0.049603175
+4,plasma membrane bounded cell projection morphogenesis,GO:0120039,0.049603175
+4,cellular response to aldosterone,GO:1904045,0.049603175
+4,cell part morphogenesis,GO:0032990,0.049603175
+4,cellular component morphogenesis,GO:0032989,0.049603175
+4,neuron projection morphogenesis,GO:0048812,0.049603175
+4,negative regulation of protein polymerization,GO:0032272,0.049603175
+4,learning or memory,GO:0007611,0.049603175
+4,learning,GO:0007612,0.049603175
+4,memory,GO:0007613,0.049603175
+4,cellular response to insulin stimulus,GO:0032869,0.049603175
+4,visual behavior,GO:0007632,0.049603175
+4,associative learning,GO:0008306,0.049603175
+4,visual learning,GO:0008542,0.049603175
+4,hormone-mediated signaling pathway,GO:0009755,0.049603175
+4,positive regulation of cell development,GO:0010720,0.049603175
+4,positive regulation of sodium ion transport,GO:0010765,0.049603175
+4,long-term memory,GO:0007616,0.049603175
+4,positive regulation of cell morphogenesis involved in differentiation,GO:0010770,0.049603175
+4,dendrite development,GO:0016358,0.049603175
+4,regulation of cell morphogenesis,GO:0022604,0.049603175
+4,regulation of microtubule polymerization,GO:0031113,0.049603175
+4,negative regulation of microtubule polymerization,GO:0031115,0.049603175
+4,negative regulation of protein-containing complex assembly,GO:0031333,0.049603175
+4,positive regulation of cell projection organization,GO:0031346,0.049603175
+4,regulation of protein polymerization,GO:0032271,0.049603175
+4,regulation of cell morphogenesis involved in differentiation,GO:0010769,0.049603175
+4,channel regulator activity,GO:0016247,0.049780964
+4,tau protein binding,GO:0048156,0.049780964
+4,3-phosphoinositide-dependent protein kinase binding,GO:0043423,0.049780964
+4,potassium channel regulator activity,GO:0015459,0.049780964
+4,protein serine/threonine/tyrosine kinase activity,GO:0004712,0.049780964
+4,ion channel regulator activity,GO:0099106,0.049780964
+4,NGF-stimulated transcription,REAC:R-MMU-9031628,0.049751244
+4,Regulation of TP53 Expression and Degradation,REAC:R-MMU-6806003,0.049751244
+4,Regulation of TP53 Degradation,REAC:R-MMU-6804757,0.049751244
+4,Stimuli-sensing channels,REAC:R-MMU-2672351,0.049751244
+4,Nuclear Events (kinase and transcription factor activation),REAC:R-MMU-198725,0.049751244
+4,IL-6 signaling pathway,WP:WP387,0.049810719
+4,Mechanisms associated with pluripotency,WP:WP1763,0.049810719
+4,Insulin signaling,WP:WP65,0.049810719
+5,Myoglobinuria,HP:0002913,0.049830576
+5,Exercise intolerance,HP:0003546,0.049830576
+5,Exercise-induced muscle cramps,HP:0003710,0.049830576
+6,actin filament-based process,GO:0030029,0.012593204
+6,Alpha 6 beta 4 integrin signaling pathway,WP:WP488,0.04979198
+8,Abnormality of blood circulation,HP:0011028,0.049915144
+8,High myopia,HP:0011003,0.049915144
+8,Sleep apnea,HP:0010535,0.049915144
+8,Aplasia/Hypoplasia affecting the anterior segment of the eye,HP:0008062,0.049915144
+8,Aplasia/Hypoplasia of the retina,HP:0008061,0.049915144
+8,Aplasia/Hypoplasia of the macula,HP:0008059,0.049915144
+8,Aplasia/Hypoplasia affecting the fundus,HP:0008057,0.049915144
+8,Aplasia/Hypoplasia affecting the uvea,HP:0008055,0.049915144
+8,Aplasia/Hypoplasia of the iris,HP:0008053,0.049915144
+8,Abnormal retinal vascular morphology,HP:0008046,0.049915144
+8,Internal hemorrhage,HP:0011029,0.049915144
+8,Abnormality of lower limb joint,HP:0100491,0.049915144
+8,Abnormal pupillary light reflex,HP:0007695,0.049915144
+8,Abnormal pupillary function,HP:0007686,0.049915144
+8,Hypoplasia of the iris,HP:0007676,0.049915144
+8,Limited wrist extension,HP:0006251,0.049915144
+8,Limited wrist movement,HP:0006248,0.049915144
+8,Positional foot deformity,HP:0005656,0.049915144
+8,Secondary microcephaly,HP:0005484,0.049915144
+8,Impaired mastication,HP:0005216,0.049915144
+8,Elevated pulmonary artery pressure,HP:0004890,0.049915144
+8,Hyperechogenic kidneys,HP:0004719,0.049915144
+8,Hypopigmentation of the fundus,HP:0007894,0.049915144
+8,Limited extraocular movements,HP:0007941,0.049915144
+8,Abnormal renal cortex morphology,HP:0011035,0.049915144
+8,Hemorrhage of the eye,HP:0011885,0.049915144
+8,Muscle fiber atrophy,HP:0100295,0.049915144
+8,EMG: impaired neuromuscular transmission,HP:0100285,0.049915144
+8,Pre-capillary pulmonary hypertension,HP:0033578,0.049915144
+8,Tube feeding,HP:0033454,0.049915144
+8,Abnormal renal echogenicity,HP:0033130,0.049915144
+8,Persistent head lag,HP:0032988,0.049915144
+8,Fundus hemorrhage,HP:0031803,0.049915144
+8,Abnormality of fundus pigmentation,HP:0031605,0.049915144
+8,Abnormal renal corpuscle morphology,HP:0031263,0.049915144
+8,Abnormality of pulmonary circulation,HP:0030875,0.049915144
+8,Hand muscle weakness,HP:0030237,0.049915144
+8,Slow pupillary light response,HP:0030211,0.049915144
+8,Unfavorable response of muscle weakness to acetylcholine esterase inhibitors,HP:0030203,0.049915144
+8,Response to drugs acting on neuromuscular transmission,HP:0030201,0.049915144
+8,Abnormal vascular physiology,HP:0030163,0.049915144
+8,Microcoria,HP:0025492,0.049915144
+8,Abnormal cry,HP:0025429,0.049915144
+8,Uveal ectropion,HP:0025358,0.049915144
+8,Retinal vascular tortuosity,HP:0012841,0.049915144
+8,Chronic kidney disease,HP:0012622,0.049915144
+8,Abnormal nephron morphology,HP:0012575,0.049915144
+8,Abnormal vitreous humor morphology,HP:0004327,0.049915144
+8,Abnormality of lens shape,HP:0011526,0.049915144
+8,Renal insufficiency,HP:0000083,0.049915144
+8,Scapular winging,HP:0003691,0.049915144
+8,Bilateral ptosis,HP:0001488,0.049915144
+8,Abnormality of the shoulder girdle musculature,HP:0001435,0.049915144
+8,Abnormality of the musculature of the hand,HP:0001421,0.049915144
+8,Limitation of joint mobility,HP:0001376,0.049915144
+8,Lenticonus,HP:0001142,0.049915144
+8,Macular hypoplasia,HP:0001104,0.049915144
+8,Abnormal macular morphology,HP:0001103,0.049915144
+8,Abnormal scapula morphology,HP:0000782,0.049915144
+8,Blindness,HP:0000618,0.049915144
+8,Abnormal pupil morphology,HP:0000615,0.049915144
+8,Oligohydramnios,HP:0001562,0.049915144
+8,Retinal hemorrhage,HP:0000573,0.049915144
+8,Retinal detachment,HP:0000541,0.049915144
+8,Abnormality iris morphology,HP:0000525,0.049915144
+8,Neck muscle weakness,HP:0000467,0.049915144
+8,Abnormality of the chin,HP:0000306,0.049915144
+8,Mandibular prognathia,HP:0000303,0.049915144
+8,Progressive microcephaly,HP:0000253,0.049915144
+8,Triangular mouth,HP:0000207,0.049915144
+8,Nephrotic syndrome,HP:0000100,0.049915144
+8,Abnormal renal glomerulus morphology,HP:0000095,0.049915144
+8,Proteinuria,HP:0000093,0.049915144
+8,Rieger anomaly,HP:0000558,0.049915144
+8,Stage 5 chronic kidney disease,HP:0003774,0.049915144
+8,Weak cry,HP:0001612,0.049915144
+8,Abnormal right ventricle morphology,HP:0001707,0.049915144
+8,Type 2 muscle fiber atrophy,HP:0003554,0.049915144
+8,Decreased size of nerve terminals,HP:0003443,0.049915144
+8,Prolonged miniature endplate currents,HP:0003436,0.049915144
+8,EMG: decremental response of compound muscle action potential to repetitive nerve stimulation,HP:0003403,0.049915144
+8,Axial muscle weakness,HP:0003327,0.049915144
+8,Hypoproteinemia,HP:0003075,0.049915144
+8,Abnormality of the wrist,HP:0003019,0.049915144
+8,Exertional dyspnea,HP:0002875,0.049915144
+8,Abnormality of the knee,HP:0002815,0.049915144
+8,Hypoventilation,HP:0002791,0.049915144
+8,Right ventricular hypertrophy,HP:0001667,0.049915144
+8,Recurrent lower respiratory tract infections,HP:0002783,0.049915144
+8,Poor head control,HP:0002421,0.049915144
+8,Frequent falls,HP:0002359,0.049915144
+8,Apnea,HP:0002104,0.049915144
+8,Respiratory distress,HP:0002098,0.049915144
+8,Pulmonary arterial hypertension,HP:0002092,0.049915144
+8,Diffuse mesangial sclerosis,HP:0001967,0.049915144
+8,Abnormal glomerular mesangium morphology,HP:0001966,0.049915144
+8,Talipes,HP:0001883,0.049915144
+8,Talipes equinovarus,HP:0001762,0.049915144
+8,Ventricular hypertrophy,HP:0001714,0.049915144
+8,Waddling gait,HP:0002515,0.049915144
+8,Death in childhood,HP:0003819,0.049915144
+8,mmu-miR-758-3p,MIRNA:mmu-miR-758-3p,0.049875312
+8,mmu-miR-694,MIRNA:mmu-miR-694,0.049875312
+8,mmu-miR-686,MIRNA:mmu-miR-686,0.049875312

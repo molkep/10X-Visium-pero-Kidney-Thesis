@@ -1,0 +1,17 @@
+Cluster File,GO Term,GO ID,P-Value
+1,glutathione metabolic process,GO:0006749,0.049883771
+1,xenobiotic metabolic process,GO:0006805,0.049883771
+1,toxin metabolic process,GO:0009404,0.049883771
+1,secondary metabolic process,GO:0019748,0.049883771
+1,mycotoxin metabolic process,GO:0043385,0.049883771
+1,aflatoxin metabolic process,GO:0046222,0.049883771
+1,organic heteropentacyclic compound metabolic process,GO:1901376,0.049883771
+1,Metabolism of porphyrins,REAC:R-MMU-189445,0.049958035
+1,Heme degradation,REAC:R-MMU-189483,0.049958035
+7,Signaling by NTRKs,REAC:R-MMU-166520,0.04994506
+7,Signaling by NTRK1 (TRKA),REAC:R-MMU-187037,0.04994506
+7,Nuclear Events (kinase and transcription factor activation),REAC:R-MMU-198725,0.04994506
+7,NGF-stimulated transcription,REAC:R-MMU-9031628,0.04994506
+7,IL-6 signaling pathway,WP:WP387,0.049946058
+8,Restlessness,HP:0000711,0.009956589
+8,mmu-miR-124-3p,MIRNA:mmu-miR-124-3p,0.049893086

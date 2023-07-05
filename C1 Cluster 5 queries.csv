@@ -1,0 +1,29 @@
+Cluster File,GO Term,GO ID,P-Value
+1,structural molecule activity,GO:0005198,0.008549138
+1,mmu-let-7b-5p,MIRNA:mmu-let-7b-5p,0.049021464
+1,Dravet syndrome: Scn1a-A1783V point mutation model,WP:WP5298,0.049923035
+2,mmu-miR-10a-5p,MIRNA:mmu-miR-10a-5p,0.049975012
+2,mmu-miR-10b-5p,MIRNA:mmu-miR-10b-5p,0.049975012
+2,mmu-miR-1952,MIRNA:mmu-miR-1952,0.049975012
+2,mmu-miR-339-5p,MIRNA:mmu-miR-339-5p,0.049975012
+2,mmu-miR-3473c,MIRNA:mmu-miR-3473c,0.049975012
+3,monoatomic anion transmembrane transport,GO:0098656,0.049865364
+3,chloride transmembrane transport,GO:1902476,0.049865364
+3,chloride channel complex,GO:0034707,0.049865364
+3,monoatomic ion channel complex,GO:0034702,0.049865364
+3,gated channel activity,GO:0022836,0.049865364
+3,voltage-gated channel activity,GO:0022832,0.049865364
+3,passive transmembrane transporter activity,GO:0022803,0.049865364
+3,channel activity,GO:0015267,0.049865364
+3,chloride transmembrane transporter activity,GO:0015108,0.049865364
+3,inorganic anion transmembrane transporter activity,GO:0015103,0.049865364
+3,monoatomic anion transmembrane transporter activity,GO:0008509,0.049865364
+3,monoatomic ion gated channel activity,GO:0022839,0.049865364
+3,voltage-gated monoatomic anion channel activity,GO:0008308,0.049865364
+3,monoatomic anion channel activity,GO:0005253,0.049865364
+3,voltage-gated chloride channel activity,GO:0005247,0.049865364
+3,voltage-gated monoatomic ion channel activity,GO:0005244,0.049865364
+3,monoatomic ion channel activity,GO:0005216,0.049865364
+3,chloride channel activity,GO:0005254,0.049865364
+3,Stimuli-sensing channels,REAC:R-MMU-2672351,0.04995005
+6,Adenylate cyclase inhibitory pathway,REAC:R-MMU-170670,0.04984051

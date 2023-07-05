@@ -1,0 +1,113 @@
+Cluster File,GO Term,GO ID,P-Value
+2,Ebstein anomaly of the tricuspid valve,HP:0010316,0.049711672
+2,Left ventricular noncompaction cardiomyopathy,HP:0011664,0.049711672
+2,Noncompaction cardiomyopathy,HP:0012817,0.049711672
+3,Translation,REAC:R-MMU-72766,0.046915649
+4,Failure to thrive in infancy,HP:0001531,0.04995005
+4,Activation of NF-kappaB in B cells,REAC:R-MMU-1169091,0.049980008
+4,G2/M Checkpoints,REAC:R-MMU-69481,0.049980008
+4,DNA Replication,REAC:R-MMU-69306,0.049980008
+4,"Cell Cycle, Mitotic",REAC:R-MMU-69278,0.049980008
+4,G2/M Transition,REAC:R-MMU-69275,0.049980008
+4,S Phase,REAC:R-MMU-69242,0.049980008
+4,Synthesis of DNA,REAC:R-MMU-69239,0.049980008
+4,G1/S Transition,REAC:R-MMU-69206,0.049980008
+4,Cyclin E associated events during G1/S transition ,REAC:R-MMU-69202,0.049980008
+4,Switching of origins to a post-replicative state,REAC:R-MMU-69052,0.049980008
+4,CDK-mediated phosphorylation and removal of Cdc6,REAC:R-MMU-69017,0.049980008
+4,DNA Replication Pre-Initiation,REAC:R-MMU-69002,0.049980008
+4,Orc1 removal from chromatin,REAC:R-MMU-68949,0.049980008
+4,M Phase,REAC:R-MMU-68886,0.049980008
+4,Mitotic Anaphase,REAC:R-MMU-68882,0.049980008
+4,Assembly of the pre-replicative complex,REAC:R-MMU-68867,0.049980008
+4,Ub-specific processing proteases,REAC:R-MMU-5689880,0.049980008
+4,UCH proteinases,REAC:R-MMU-5689603,0.049980008
+4,Deubiquitination,REAC:R-MMU-5688426,0.049980008
+4,MAPK6/MAPK4 signaling,REAC:R-MMU-5687128,0.049980008
+4,MAPK1/MAPK3 signaling,REAC:R-MMU-5684996,0.049980008
+4,MAPK family signaling cascades,REAC:R-MMU-5683057,0.049980008
+4,Stabilization of p53,REAC:R-MMU-69541,0.049980008
+4,NIK-->noncanonical NF-kB signaling,REAC:R-MMU-5676590,0.049980008
+4,p53-Dependent G1 DNA Damage Response,REAC:R-MMU-69563,0.049980008
+4,Ubiquitin Mediated Degradation of Phosphorylated Cdc25A,REAC:R-MMU-69601,0.049980008
+4,Antigen processing: Ubiquitination & Proteasome degradation,REAC:R-MMU-983168,0.049980008
+4,GSK3B and BTRC:CUL1-mediated-degradation of NFE2L2,REAC:R-MMU-9762114,0.049980008
+4,Nuclear events mediated by NFE2L2,REAC:R-MMU-9759194,0.049980008
+4,KEAP1-NFE2L2 pathway,REAC:R-MMU-9755511,0.049980008
+4,Interleukin-1 signaling,REAC:R-MMU-9020702,0.049980008
+4,Neddylation,REAC:R-MMU-8951664,0.049980008
+4,Regulation of PTEN stability and activity,REAC:R-MMU-8948751,0.049980008
+4,Regulation of RUNX3 expression and activity,REAC:R-MMU-8941858,0.049980008
+4,Regulation of RUNX2 expression and activity,REAC:R-MMU-8939902,0.049980008
+4,RUNX1 regulates transcription of genes involved in differentiation of HSCs,REAC:R-MMU-8939236,0.049980008
+4,Transcriptional regulation by RUNX1,REAC:R-MMU-8878171,0.049980008
+4,Transcriptional regulation by RUNX2,REAC:R-MMU-8878166,0.049980008
+4,Transcriptional regulation by RUNX3,REAC:R-MMU-8878159,0.049980008
+4,FBXL7 down-regulates AURKA during mitotic entry and in early mitosis,REAC:R-MMU-8854050,0.049980008
+4,The role of GTSE1 in G2/M progression after G2 checkpoint,REAC:R-MMU-8852276,0.049980008
+4,Ubiquitin-dependent degradation of Cyclin D,REAC:R-MMU-75815,0.049980008
+4,Cyclin A:Cdk2-associated events at S phase entry,REAC:R-MMU-69656,0.049980008
+4,Cell Cycle Checkpoints,REAC:R-MMU-69620,0.049980008
+4,G1/S DNA Damage Checkpoints,REAC:R-MMU-69615,0.049980008
+4,p53-Independent G1/S DNA damage checkpoint,REAC:R-MMU-69613,0.049980008
+4,p53-Independent DNA Damage Response,REAC:R-MMU-69610,0.049980008
+4,p53-Dependent G1/S DNA damage checkpoint,REAC:R-MMU-69580,0.049980008
+4,RAF/MAP kinase cascade,REAC:R-MMU-5673001,0.049980008
+4,TNFR2 non-canonical NF-kB pathway,REAC:R-MMU-5668541,0.049980008
+4,Class I MHC mediated antigen processing & presentation,REAC:R-MMU-983169,0.049980008
+4,Separation of Sister Chromatids,REAC:R-MMU-2467813,0.049980008
+4,Downstream TCR signaling,REAC:R-MMU-202424,0.049980008
+4,TCR signaling,REAC:R-MMU-202403,0.049980008
+4,TCF dependent signaling in response to WNT,REAC:R-MMU-201681,0.049980008
+4,Signaling by WNT,REAC:R-MMU-195721,0.049980008
+4,Degradation of beta-catenin by the destruction complex,REAC:R-MMU-195253,0.049980008
+4,SCF(Skp2)-mediated degradation of p27/p21,REAC:R-MMU-187577,0.049980008
+4,APC:Cdc20 mediated degradation of cell cycle proteins prior to satisfation of the cell cycle checkpoint,REAC:R-MMU-179419,0.049980008
+4,Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins,REAC:R-MMU-176814,0.049980008
+4,APC/C:Cdc20 mediated degradation of mitotic proteins,REAC:R-MMU-176409,0.049980008
+4,Cdc20:Phospho-APC/C mediated degradation of Cyclin A,REAC:R-MMU-174184,0.049980008
+4,APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1,REAC:R-MMU-174178,0.049980008
+4,APC/C:Cdc20 mediated degradation of Securin,REAC:R-MMU-174154,0.049980008
+4,APC/C-mediated degradation of cell cycle proteins,REAC:R-MMU-174143,0.049980008
+4,Autodegradation of Cdh1 by Cdh1:APC/C,REAC:R-MMU-174084,0.049980008
+4,Cell Cycle,REAC:R-MMU-1640170,0.049980008
+4,Cytokine Signaling in Immune system,REAC:R-MMU-1280215,0.049980008
+4,Cross-presentation of soluble exogenous antigens (endosomes),REAC:R-MMU-1236978,0.049980008
+4,Antigen processing-Cross presentation,REAC:R-MMU-1236975,0.049980008
+4,Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha,REAC:R-MMU-1234176,0.049980008
+4,Cellular response to hypoxia,REAC:R-MMU-1234174,0.049980008
+4,Mitotic Metaphase and Anaphase,REAC:R-MMU-2555396,0.049980008
+4,FCERI mediated NF-kB activation,REAC:R-MMU-2871837,0.049980008
+4,Autodegradation of the E3 ubiquitin ligase COP1,REAC:R-MMU-349425,0.049980008
+4,Regulation of ornithine decarboxylase (ODC),REAC:R-MMU-350562,0.049980008
+4,Hedgehog 'on' state,REAC:R-MMU-5632684,0.049980008
+4,C-type lectin receptors (CLRs),REAC:R-MMU-5621481,0.049980008
+4,Hedgehog 'off' state,REAC:R-MMU-5610787,0.049980008
+4,GLI3 is processed to GLI3R by the proteasome,REAC:R-MMU-5610785,0.049980008
+4,Degradation of GLI1 by the proteasome,REAC:R-MMU-5610780,0.049980008
+4,CLEC7A (Dectin-1) signaling,REAC:R-MMU-5607764,0.049980008
+4,Dectin-1 mediated noncanonical NF-kB signaling,REAC:R-MMU-5607761,0.049980008
+4,Signaling by Hedgehog,REAC:R-MMU-5358351,0.049980008
+4,Hedgehog ligand biogenesis,REAC:R-MMU-5358346,0.049980008
+4,Degradation of DVL,REAC:R-MMU-4641258,0.049980008
+4,Downstream signaling events of B Cell Receptor (BCR),REAC:R-MMU-1168372,0.049980008
+4,Degradation of AXIN,REAC:R-MMU-4641257,0.049980008
+4,Mitotic G1 phase and G1/S transition,REAC:R-MMU-453279,0.049980008
+4,Regulation of mitotic cell cycle,REAC:R-MMU-453276,0.049980008
+4,Mitotic G2-G2/M phases,REAC:R-MMU-453274,0.049980008
+4,Regulation of mRNA stability by proteins that bind AU-rich elements,REAC:R-MMU-450531,0.049980008
+4,AUF1 (hnRNP D0) binds and destabilizes mRNA,REAC:R-MMU-450408,0.049980008
+4,Signaling by Interleukins,REAC:R-MMU-449147,0.049980008
+4,Interleukin-1 family signaling,REAC:R-MMU-446652,0.049980008
+4,PCP/CE pathway,REAC:R-MMU-4086400,0.049980008
+4,Beta-catenin independent WNT signaling,REAC:R-MMU-3858494,0.049980008
+4,ABC-family proteins mediated transport,REAC:R-MMU-382556,0.049980008
+4,Asymmetric localization of PCP proteins,REAC:R-MMU-4608870,0.049980008
+4,Regulation of RAS by GAPs,REAC:R-MMU-5658442,0.049980008
+4,Proteasome degradation,WP:WP519,0.0499002
+6,Abnormal tricuspid valve morphology,HP:0001702,0.04995005
+6,Ebstein anomaly of the tricuspid valve,HP:0010316,0.04995005
+6,Left ventricular noncompaction cardiomyopathy,HP:0011664,0.04995005
+6,Noncompaction cardiomyopathy,HP:0012817,0.04995005
+6,Abnormal left ventricular end-diastolic volume,HP:0033754,0.04995005
+6,Increased left ventricular end-diastolic volume,HP:0033755,0.04995005

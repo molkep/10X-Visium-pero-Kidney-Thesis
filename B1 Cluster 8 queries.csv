@@ -1,0 +1,227 @@
+Cluster File,GO Term,GO ID,P-Value
+1,glutamine metabolic process,GO:0006541,0.049954541
+1,glycine metabolic process,GO:0006544,0.049954541
+1,threonine metabolic process,GO:0006566,0.049954541
+1,gamma-aminobutyric acid metabolic process,GO:0009448,0.049954541
+1,taurine metabolic process,GO:0019530,0.049954541
+1,alkanesulfonate metabolic process,GO:0019694,0.049954541
+1,glial cell development,GO:0021782,0.049954541
+1,G1 to G0 transition,GO:0070314,0.049954541
+1,Aplasia/Hypoplasia of the testes,HP:0010468,0.049960032
+1,Atonic seizure,HP:0010819,0.049960032
+1,Abdominal wall defect,HP:0010866,0.049960032
+1,Abnormal fourth ventricle morphology,HP:0010950,0.049960032
+1,Abnormal circulating serine family amino acid concentration,HP:0010894,0.049960032
+1,Abnormal circulating glycine concentration,HP:0010895,0.049960032
+1,Spinal dysraphism,HP:0010301,0.049960032
+1,Abnormality of the umbilical cord,HP:0010881,0.049960032
+1,Joint contracture of the hand,HP:0009473,0.049960032
+1,Abnormality of the calcaneus,HP:0008364,0.049960032
+1,Decreased testicular size,HP:0008734,0.049960032
+1,Renal hypoplasia/aplasia,HP:0008678,0.049960032
+1,Abnormal nasal dorsum morphology,HP:0011119,0.049960032
+1,Deformed tarsal bones,HP:0008119,0.049960032
+1,Generalized ichthyosis,HP:0007503,0.049960032
+1,Abnormal choroid plexus morphology,HP:0007376,0.049960032
+1,Developmental stagnation,HP:0007281,0.049960032
+1,Cerebral dysmyelination,HP:0007266,0.049960032
+1,Abnormal adipose tissue morphology,HP:0009124,0.049960032
+1,Aplasia/Hypoplasia of the eyelid,HP:0011226,0.049960032
+1,Congenital malformation of the great arteries,HP:0011603,0.049960032
+1,Abnormal connection of the cardiac segments,HP:0011545,0.049960032
+1,Sparse or absent eyelashes,HP:0200102,0.049960032
+1,Long fingers,HP:0100807,0.049960032
+1,Hernia,HP:0100790,0.049960032
+1,Cerebral visual impairment,HP:0100704,0.049960032
+1,Esophagitis,HP:0100633,0.049960032
+1,Upper-limb joint contracture,HP:0100360,0.049960032
+1,Abnormality of the testis size,HP:0045058,0.049960032
+1,Neural tube defect,HP:0045005,0.049960032
+1,Open neural tube defect,HP:0034237,0.049960032
+1,Myoclonic seizure,HP:0032794,0.049960032
+1,Generalized-onset motor seizure,HP:0032677,0.049960032
+1,Swollen lip,HP:0031244,0.049960032
+1,Inappropriate crying,HP:0030215,0.049960032
+1,Flexion contracture of digit,HP:0030044,0.049960032
+1,Abnormal placental size,HP:0012767,0.049960032
+1,Cerebral white matter atrophy,HP:0012762,0.049960032
+1,Camptodactyly,HP:0012385,0.049960032
+1,Cerebral hypoplasia,HP:0006872,0.049960032
+1,Abnormal ventriculoarterial connection,HP:0011563,0.049960032
+1,Moderate global developmental delay,HP:0011343,0.049960032
+1,Aplasia/Hypoplasia of the cerebellar vermis,HP:0006817,0.049960032
+1,Enlarged posterior fossa,HP:0005445,0.049960032
+1,Small placenta,HP:0006266,0.049960032
+1,Cerebellar vermis hypoplasia,HP:0001320,0.049960032
+1,Dandy-Walker malformation,HP:0001305,0.049960032
+1,Short umbilical cord,HP:0001196,0.049960032
+1,Syndactyly,HP:0001159,0.049960032
+1,Pterygium,HP:0001059,0.049960032
+1,Abnormality of subcutaneous fat tissue,HP:0001001,0.049960032
+1,Abnormal posterior cranial fossa morphology,HP:0000932,0.049960032
+1,Inappropriate behavior,HP:0000719,0.049960032
+1,Absent eyelashes,HP:0000561,0.049960032
+1,Abnormal eyelash morphology,HP:0000499,0.049960032
+1,Broad neck,HP:0000475,0.049960032
+1,Short neck,HP:0000470,0.049960032
+1,Depressed nasal ridge,HP:0000457,0.049960032
+1,Macrotia,HP:0000400,0.049960032
+1,Cleft upper lip,HP:0000204,0.049960032
+1,Oral cleft,HP:0000202,0.049960032
+1,Cleft palate,HP:0000175,0.049960032
+1,Renal agenesis,HP:0000104,0.049960032
+1,Inguinal hernia,HP:0000023,0.049960032
+1,Umbilical hernia,HP:0001537,0.049960032
+1,Cerebral hypomyelination,HP:0006808,0.049960032
+1,Abnormal umbilicus morphology,HP:0001551,0.049960032
+1,Transposition of the great arteries,HP:0001669,0.049960032
+1,Finger syndactyly,HP:0006101,0.049960032
+1,Cleft lip,HP:0410030,0.049960032
+1,Hernia of the abdominal wall,HP:0004299,0.049960032
+1,Neonatal death,HP:0003811,0.049960032
+1,Abnormality of the cervical spine,HP:0003319,0.049960032
+1,Absent facial hair,HP:0002550,0.049960032
+1,Spina bifida,HP:0002414,0.049960032
+1,Cerebellar cyst,HP:0002350,0.049960032
+1,Abnormal cerebellar vermis morphology,HP:0002334,0.049960032
+1,Anencephaly,HP:0002323,0.049960032
+1,Absent hair,HP:0002298,0.049960032
+1,Dilated fourth ventricle,HP:0002198,0.049960032
+1,Choroid plexus cyst,HP:0002190,0.049960032
+1,Generalized myoclonic seizure,HP:0002123,0.049960032
+1,Generalized non-motor (absence) seizure,HP:0002121,0.049960032
+1,Abnormal esophagus morphology,HP:0002031,0.049960032
+1,Fetal akinesia sequence,HP:0001989,0.049960032
+1,Calcaneovalgus deformity,HP:0001848,0.049960032
+1,Toe syndactyly,HP:0001770,0.049960032
+1,Patent ductus arteriosus,HP:0001643,0.049960032
+1,Abnormal neural tube morphology,HP:0410043,0.049960032
+2,Vezf1-p68RacGap complex,CORUM:488,0.04995
+3,Triangular mouth,HP:0000207,0.049975012
+3,Hypopigmentation of the fundus,HP:0007894,0.049975012
+3,Limited extraocular movements,HP:0007941,0.049975012
+3,Aplasia/Hypoplasia of the macula,HP:0008059,0.049975012
+3,Aplasia/Hypoplasia of the retina,HP:0008061,0.049975012
+3,Abnormality of lens shape,HP:0011526,0.049975012
+3,Hemorrhage of the eye,HP:0011885,0.049975012
+3,Retinal vascular tortuosity,HP:0012841,0.049975012
+3,Uveal ectropion,HP:0025358,0.049975012
+3,Microcoria,HP:0025492,0.049975012
+3,Response to drugs acting on neuromuscular transmission,HP:0030201,0.049975012
+3,Unfavorable response of muscle weakness to acetylcholine esterase inhibitors,HP:0030203,0.049975012
+3,Slow pupillary light response,HP:0030211,0.049975012
+3,Abnormality of fundus pigmentation,HP:0031605,0.049975012
+3,Fundus hemorrhage,HP:0031803,0.049975012
+3,Abnormal renal echogenicity,HP:0033130,0.049975012
+3,Abnormal pupillary light reflex,HP:0007695,0.049975012
+3,Limited wrist extension,HP:0006251,0.049975012
+3,Hyperechogenic kidneys,HP:0004719,0.049975012
+3,Abnormal vitreous humor morphology,HP:0004327,0.049975012
+3,Mandibular prognathia,HP:0000303,0.049975012
+3,Rieger anomaly,HP:0000558,0.049975012
+3,Retinal hemorrhage,HP:0000573,0.049975012
+3,Macular hypoplasia,HP:0001104,0.049975012
+3,Lenticonus,HP:0001142,0.049975012
+3,Right ventricular hypertrophy,HP:0001667,0.049975012
+3,Abnormal glomerular mesangium morphology,HP:0001966,0.049975012
+3,Abnormal muscle fiber-type distribution,HP:0033684,0.049975012
+3,Diffuse mesangial sclerosis,HP:0001967,0.049975012
+3,Hypoventilation,HP:0002791,0.049975012
+3,Hypoproteinemia,HP:0003075,0.049975012
+3,EMG: decremental response of compound muscle action potential to repetitive nerve stimulation,HP:0003403,0.049975012
+3,Prolonged miniature endplate currents,HP:0003436,0.049975012
+3,Decreased size of nerve terminals,HP:0003443,0.049975012
+3,Type 1 muscle fiber predominance,HP:0003803,0.049975012
+3,Death in childhood,HP:0003819,0.049975012
+3,Neonatal respiratory distress,HP:0002643,0.049975012
+3,EMG: impaired neuromuscular transmission,HP:0100285,0.049975012
+4,urea cycle,GO:0000050,0.049603175
+4,argininosuccinate metabolic process,GO:0000053,0.049603175
+4,arginine biosynthetic process,GO:0006526,0.049603175
+4,glutamine metabolic process,GO:0006541,0.049603175
+4,ornithine metabolic process,GO:0006591,0.049603175
+4,glutamine family amino acid biosynthetic process,GO:0009084,0.049603175
+4,urea metabolic process,GO:0019627,0.049603175
+4,ammonia assimilation cycle,GO:0019676,0.049603175
+4,nitrogen utilization,GO:0019740,0.049603175
+4,arginine biosynthetic process via ornithine,GO:0042450,0.049603175
+4,nitrogen cycle metabolic process,GO:0071941,0.049603175
+4,carbon-nitrogen lyase activity,GO:0016840,0.049780964
+4,amidine-lyase activity,GO:0016842,0.049780964
+4,Respiratory alkalosis,HP:0001950,0.049885264
+4,Episodic ammonia intoxication,HP:0001951,0.049885264
+4,Protein avoidance,HP:0002038,0.049885264
+4,Brittle hair,HP:0002299,0.049885264
+4,Oroticaciduria,HP:0003218,0.049885264
+4,Abnormal hairshaft morphology,HP:0003328,0.049885264
+4,Hypoargininemia,HP:0005961,0.049885264
+4,Trichorrhexis nodosa,HP:0009886,0.049885264
+4,Abnormal circulating arginine concentration,HP:0010909,0.049885264
+4,Dry hair,HP:0011359,0.049885264
+4,Alkalosis,HP:0001948,0.049885264
+4,Hepatic fibrosis,HP:0001395,0.049885264
+4,Urea cycle,REAC:R-MMU-70635,0.049751244
+4,Alanine and aspartate metabolism,WP:WP240,0.049810719
+5,mmu-miR-105,MIRNA:mmu-miR-105,0.049865364
+5,mmu-miR-1186a,MIRNA:mmu-miR-1186a,0.049865364
+5,mmu-miR-1186b,MIRNA:mmu-miR-1186b,0.049865364
+5,mmu-miR-127-3p,MIRNA:mmu-miR-127-3p,0.049865364
+5,mmu-miR-291a-3p,MIRNA:mmu-miR-291a-3p,0.049865364
+5,mmu-miR-294-3p,MIRNA:mmu-miR-294-3p,0.049865364
+5,mmu-miR-295-3p,MIRNA:mmu-miR-295-3p,0.049865364
+5,mmu-miR-302a-3p,MIRNA:mmu-miR-302a-3p,0.049865364
+5,mmu-miR-302b-3p,MIRNA:mmu-miR-302b-3p,0.049865364
+5,mmu-miR-302d-3p,MIRNA:mmu-miR-302d-3p,0.049865364
+5,mmu-miR-380-3p,MIRNA:mmu-miR-380-3p,0.049865364
+6,Vezf1-p68RacGap complex,CORUM:488,0.049935084
+6,Microglia pathogen phagocytosis pathway,WP:WP3626,0.049800797
+6,Kit receptor signaling pathway,WP:WP407,0.049800797
+7,Triangular mouth,HP:0000207,0.04982561
+7,Aplasia/Hypoplasia of the iris,HP:0008053,0.04982561
+7,Aplasia/Hypoplasia affecting the uvea,HP:0008055,0.04982561
+7,Aplasia/Hypoplasia of the macula,HP:0008059,0.04982561
+7,Aplasia/Hypoplasia of the retina,HP:0008061,0.04982561
+7,Aplasia/Hypoplasia affecting the anterior segment of the eye,HP:0008062,0.04982561
+7,Sleep apnea,HP:0010535,0.04982561
+7,High myopia,HP:0011003,0.04982561
+7,Abnormality of lens shape,HP:0011526,0.04982561
+7,Hemorrhage of the eye,HP:0011885,0.04982561
+7,Abnormal retinal vascular morphology,HP:0008046,0.04982561
+7,Retinal vascular tortuosity,HP:0012841,0.04982561
+7,Microcoria,HP:0025492,0.04982561
+7,Response to drugs acting on neuromuscular transmission,HP:0030201,0.04982561
+7,Unfavorable response of muscle weakness to acetylcholine esterase inhibitors,HP:0030203,0.04982561
+7,Slow pupillary light response,HP:0030211,0.04982561
+7,Abnormality of fundus pigmentation,HP:0031605,0.04982561
+7,Fundus hemorrhage,HP:0031803,0.04982561
+7,Persistent head lag,HP:0032988,0.04982561
+7,Abnormal renal echogenicity,HP:0033130,0.04982561
+7,EMG: impaired neuromuscular transmission,HP:0100285,0.04982561
+7,Uveal ectropion,HP:0025358,0.04982561
+7,Hypopigmentation of the fundus,HP:0007894,0.04982561
+7,Limited extraocular movements,HP:0007941,0.04982561
+7,Poor suck,HP:0002033,0.04982561
+7,Rieger anomaly,HP:0000558,0.04982561
+7,Retinal hemorrhage,HP:0000573,0.04982561
+7,Macular hypoplasia,HP:0001104,0.04982561
+7,Lenticonus,HP:0001142,0.04982561
+7,Right ventricular hypertrophy,HP:0001667,0.04982561
+7,Abnormal glomerular mesangium morphology,HP:0001966,0.04982561
+7,Diffuse mesangial sclerosis,HP:0001967,0.04982561
+7,Abnormal pupillary light reflex,HP:0007695,0.04982561
+7,Neonatal respiratory distress,HP:0002643,0.04982561
+7,Recurrent lower respiratory tract infections,HP:0002783,0.04982561
+7,Hypoproteinemia,HP:0003075,0.04982561
+7,EMG: decremental response of compound muscle action potential to repetitive nerve stimulation,HP:0003403,0.04982561
+7,Prolonged miniature endplate currents,HP:0003436,0.04982561
+7,Decreased size of nerve terminals,HP:0003443,0.04982561
+7,Type 2 muscle fiber atrophy,HP:0003554,0.04982561
+7,Abnormal vitreous humor morphology,HP:0004327,0.04982561
+7,Hyperechogenic kidneys,HP:0004719,0.04982561
+7,Limited wrist extension,HP:0006251,0.04982561
+7,Hypoplasia of the iris,HP:0007676,0.04982561
+7,Retinal detachment,HP:0000541,0.04982561
+7,Progressive microcephaly,HP:0000253,0.04982561
+7,mmu-miR-425-5p,MIRNA:mmu-miR-425-5p,0.049980008
+7,mmu-miR-758-3p,MIRNA:mmu-miR-758-3p,0.049980008
+7,Inflammatory response pathway,WP:WP458,0.049857076
